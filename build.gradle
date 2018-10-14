@@ -3,8 +3,6 @@ buildscript {
     ext.serialization_version = '0.6.2'
     ext.coroutines_version = '0.23.4'
 
-    ext.assetsDir = "$projectDir/docs/assets"
-
     ext.publishingAvailable = new File("${projectDir}/publishing.gradle").exists()
 
     repositories {
@@ -17,8 +15,8 @@ buildscript {
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "org.jetbrains.kotlinx:kotlinx-gradle-serialization-plugin:$serialization_version"
-        classpath 'com.android.tools.build:gradle:3.1.0'
-        classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.0"
+        classpath 'com.android.tools.build:gradle:3.2.0'
+        classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4"
     }
 }
 

@@ -2,7 +2,6 @@ apply plugin: 'kotlin-platform-js'
 apply plugin: 'kotlinx-serialization'
 
 compileKotlin2Js {
-    kotlinOptions.outputFile = "${buildDir}/web/kool.js"
     kotlinOptions.moduleKind = "amd"
     kotlinOptions.sourceMap = false
 }
