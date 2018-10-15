@@ -1,0 +1,26 @@
+apply plugin: 'kotlin-platform-common'
+apply plugin: 'kotlinx-serialization'
+
+kotlin { experimental { coroutines 'enable' } }
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-common:$versions.kotlin"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core-common:$versions.coroutines"
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime-common:$versions.serialization"
+
+    testImplementation "org.jetbrains.kotlin:kotlin-test-common:$versions.kotlin"
+    testImplementation "org.jetbrains.kotlin:kotlin-test-annotations-common:$versions.kotlin"
+}
+
+task sourcesJar(type: Jar) {
+    classifier = 'sources'
+    from sourceSets.main.kotlin
+}
+
+artifacts {
+    archives sourcesJar
+}
+
+if (publishingAvailable) {
+    apply from: "../publishing.gradle"
+}

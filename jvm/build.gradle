@@ -1,0 +1,73 @@
+import org.gradle.internal.os.OperatingSystem
+
+
+libraries.lwjgl = [
+        "org.lwjgl:lwjgl:${versions.lwjgl}",
+        "org.lwjgl:lwjgl:${versions.lwjgl}:natives-linux",
+        "org.lwjgl:lwjgl:${versions.lwjgl}:natives-macos",
+        "org.lwjgl:lwjgl:${versions.lwjgl}:natives-windows",
+        "org.lwjgl:lwjgl-glfw:${versions.lwjgl}",
+        "org.lwjgl:lwjgl-glfw:${versions.lwjgl}:natives-linux",
+        "org.lwjgl:lwjgl-glfw:${versions.lwjgl}:natives-macos",
+        "org.lwjgl:lwjgl-glfw:${versions.lwjgl}:natives-windows",
+        "org.lwjgl:lwjgl-assimp:${versions.lwjgl}",
+        "org.lwjgl:lwjgl-assimp:${versions.lwjgl}:natives-linux",
+        "org.lwjgl:lwjgl-assimp:${versions.lwjgl}:natives-macos",
+        "org.lwjgl:lwjgl-assimp:${versions.lwjgl}:natives-windows",
+        "org.lwjgl:lwjgl-jemalloc:${versions.lwjgl}",
+        "org.lwjgl:lwjgl-jemalloc:${versions.lwjgl}:natives-linux",
+        "org.lwjgl:lwjgl-jemalloc:${versions.lwjgl}:natives-macos",
+        "org.lwjgl:lwjgl-jemalloc:${versions.lwjgl}:natives-windows",
+        "org.lwjgl:lwjgl-openal:${versions.lwjgl}",
+        "org.lwjgl:lwjgl-openal:${versions.lwjgl}:natives-linux",
+        "org.lwjgl:lwjgl-openal:${versions.lwjgl}:natives-macos",
+        "org.lwjgl:lwjgl-openal:${versions.lwjgl}:natives-windows",
+        "org.lwjgl:lwjgl-opengl:${versions.lwjgl}",
+        "org.lwjgl:lwjgl-opengl:${versions.lwjgl}:natives-linux",
+        "org.lwjgl:lwjgl-opengl:${versions.lwjgl}:natives-macos",
+        "org.lwjgl:lwjgl-opengl:${versions.lwjgl}:natives-windows",
+        "org.lwjgl:lwjgl-stb:${versions.lwjgl}",
+        "org.lwjgl:lwjgl-stb:${versions.lwjgl}:natives-linux",
+        "org.lwjgl:lwjgl-stb:${versions.lwjgl}:natives-macos",
+        "org.lwjgl:lwjgl-stb:${versions.lwjgl}:natives-windows",
+        "com.apple:AppleJavaExtensions:${versions.appleExtension}",
+]
+
+libraries.android = [
+    "com.android.support:support-v4:${versions.androidSupport}"
+]
+
+
+apply plugin: 'kotlin-platform-jvm'
+apply plugin: 'kotlinx-serialization'
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+
+kotlin { experimental { coroutines 'enable' } }
+
+dependencies {
+    expectedBy project(":common")
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:${versions.kotlin}"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:${versions.kotlin}"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:${versions.coroutines}"
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime:${versions.serialization}"
+
+    implementation "com.github.wendykierp:JTransforms:${versions.jtransforms}"
+
+    implementation libraries.lwjgl
+    
+
+    testImplementation "org.jetbrains.kotlin:kotlin-test-junit:${versions.kotlin}"
+
+}
+
+if (publishingAvailable) {
+    apply from: "../publishing.gradle"
+}

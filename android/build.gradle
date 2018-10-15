@@ -3,6 +3,10 @@ apply plugin: 'kotlin-platform-android'
 apply plugin: 'kotlinx-serialization'
 
 android {
+    
+    //androidSdk = '27'
+    //androidBuildTools = '27.0.3'
+    //androidSupport = '25.+'
     compileSdkVersion 27
     defaultConfig {
         minSdkVersion 18
@@ -25,16 +29,16 @@ android {
 kotlin { experimental { coroutines 'enable' } }
 
 dependencies {
-    expectedBy project(":kool-core-common")
+    expectedBy project(":common")
 
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
-    implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime:$serialization_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:$versions.kotlin"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutines"
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime:$versions.serialization"
 
     implementation 'com.github.wendykierp:JTransforms:3.1'
 
-    testImplementation "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
+    testImplementation "org.jetbrains.kotlin:kotlin-test-junit:$versions.kotlin"
 }
 
 clean {

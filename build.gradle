@@ -1,10 +1,13 @@
+apply from: "versions.gradle"
+
 buildscript {
-    ext.kotlin_version = '1.2.71'
-    ext.serialization_version = '0.6.2'
-    ext.coroutines_version = '0.23.4'
+    apply from: "versions.gradle"
+    ext {
+        publishingAvailable = new File("${projectDir}/publishing.gradle").exists() 
+        
 
-    ext.publishingAvailable = new File("${projectDir}/publishing.gradle").exists()
-
+    }
+    
     repositories {
         jcenter()
         mavenCentral()
@@ -13,13 +16,14 @@ buildscript {
     }
 
     dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath "org.jetbrains.kotlinx:kotlinx-gradle-serialization-plugin:$serialization_version"
-        classpath 'com.android.tools.build:gradle:3.2.0'
-        classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}"
+        classpath "org.jetbrains.kotlinx:kotlinx-gradle-serialization-plugin:${versions.serialization}"
+        classpath "com.android.tools.build:gradle:${versions.android_plugin}"
+        classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:${versions.bintray_plugin}"
     }
 }
 
+    
 allprojects {
     group 'de.fabmax'
     version '0.1.2'
@@ -31,3 +35,13 @@ allprojects {
         maven { url "https://kotlin.bintray.com/kotlinx" }
     }
 }
+
+
+subprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+}
+
+    

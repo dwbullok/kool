@@ -1,7 +1,11 @@
 *.iml
 .gradle
 .idea
-build
+build/*
+common/build
+jvm/build
+js/build
+android/build
 *.kjsm
 /local.properties
 /publishing.gradle
