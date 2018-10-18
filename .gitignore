@@ -9,3 +9,4 @@ android/build
 *.kjsm
 /local.properties
 /publishing.gradle
+codealike.json

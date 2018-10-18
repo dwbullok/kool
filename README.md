@@ -1,6 +1,6 @@
-# Kotlin + OpenGL = kool
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/fabmax/kool/blob/master/LICENSE)
-[![Download](https://api.bintray.com/packages/fabmax/kool/kool/images/download.svg)](https://bintray.com/fabmax/kool/kool/_latestVersion)
+# Kotlin + OpenGL = koolite
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/fabmax/koolite/blob/master/LICENSE)
+[![Download](https://api.bintray.com/packages/fabmax/koolite/kool/images/download.svg)](https://bintray.com/fabmax/kool/kool/_latestVersion)
 
 A simple OpenGL based graphics engine that works on Desktop Java, Android and
 in browsers with Javascript / WebGL.
@@ -10,28 +10,28 @@ behaves a bit odd (IntelliJ 2018.1 EAP).
 Android build can be disabled by removing the two android modules from settings.gradle...
 
 For now this is just an experiment. However, if you are curious
-you can checkout the [javascript demo](https://fabmax.github.io/kool/kool-js/?demo=modelDemo).
+you can checkout the [javascript demo](https://fabmax.github.io/koolite/kool-js/?demo=modelDemo).
 The hamburger-button in the upper-left corner triggers the demo chooser menu. Code for
-all demos is available in kool-demo sub-project.
+all demos is available in koolite-demo sub-project.
 
 I started porting a few parts of [Bullet Physics](https://github.com/bulletphysics/bullet3). However, it's work in
 progress and still in a super early state: Only supported shape are boxes, no joints and there is no real broadphase
-yet. That's fine for [a few boxes](https://fabmax.github.io/kool/kool-js/?demo=boxDemo) but not much more (Actually
+yet. That's fine for [a few boxes](https://fabmax.github.io/koolite/kool-js/?demo=boxDemo) but not much more (Actually
 it's surprisingly fast given the fact that there is no intelligent broadphase - JVM implementation handles
 200 bodies, js is slower...).
 
 ## Features / Noticeable stuff:
-- [Mesh Simplification](https://fabmax.github.io/kool/kool-js/?demo=simplificationDemo) module using error quadrics
-- Added elevation mapping in [OSM Demo](https://fabmax.github.io/kool/kool-js/?demo=globeDemo) (Europe only) - Zoom in on the alps!
-- Some super-primitive [Physics Simulation](https://fabmax.github.io/kool/kool-js/?demo=boxDemo)
+- [Mesh Simplification](https://fabmax.github.io/koolite/kool-js/?demo=simplificationDemo) module using error quadrics
+- Added elevation mapping in [OSM Demo](https://fabmax.github.io/koolite/kool-js/?demo=globeDemo) (Europe only) - Zoom in on the alps!
+- Some super-primitive [Physics Simulation](https://fabmax.github.io/koolite/kool-js/?demo=boxDemo)
 - Full support of all features on all platforms
 - Multi-touch support (on Android and Javascript / WebGL)
-- New procedural [Tree Demo](https://fabmax.github.io/kool/kool-js/?demo=treeDemo)
+- New procedural [Tree Demo](https://fabmax.github.io/koolite/kool-js/?demo=treeDemo)
 - Cascaded shadow maps
-- Vertex shader mesh animation: [Model Demo](https://fabmax.github.io/kool/kool-js/?demo=modelDemo)
+- Vertex shader mesh animation: [Model Demo](https://fabmax.github.io/koolite/kool-js/?demo=modelDemo)
 - Normal mapping
-- OpenStreetMap tile loading: [OSM Demo](https://fabmax.github.io/kool/kool-js/?demo=globeDemo)
-- Synthie music: [Synthie Demo](https://fabmax.github.io/kool/kool-js/?demo=synthieDemo), quite CPU intense...
+- OpenStreetMap tile loading: [OSM Demo](https://fabmax.github.io/koolite/kool-js/?demo=globeDemo)
+- Synthie music: [Synthie Demo](https://fabmax.github.io/koolite/kool-js/?demo=synthieDemo), quite CPU intense...
 - Multi-scene / multi-viewport support
 - Some simple UI stuff: Text-Fields, (Toggle-)Buttons, Sliders, Labels
 - Meshes with shared geometry
@@ -47,10 +47,10 @@ it's surprisingly fast given the fact that there is no intelligent broadphase - 
 - Shading with different light (Phong / Gouraud) and color models (vertex, texture or fixed)
 
 ## Hello World Example (spinning cube):
-For more example code checkout kool-demo sub-project.
+For more example code checkout koolite-demo sub-project.
 ```kotlin
 fun main(args: Array<String>) {
-    // Initialize platform and kool context
+    // Initialize platform and koolite context
     val ctx = createContext()
     
     // Set some background color
@@ -110,13 +110,13 @@ fun main(args: Array<String>) {
 Library is published on bintray. Use it with gradle:
 ```gradle
 repositories {
-    maven { url 'https://dl.bintray.com/fabmax/kool/' }
+    maven { url 'https://dl.bintray.com/fabmax/koolite/' }
 }
 
 dependencies {
-    compile 'de.fabmax:kool-core-jvm:0.1.0'     // for a JVM project
-    compile 'de.fabmax:kool-core-js:0.1.0'      // for a Javascript project
-    compile 'de.fabmax:kool-core-common:0.1.0'  // for common module of a multi-platform project
+    compile 'com.codeviking.kooliteite-jvm:0.1.2'     // for a JVM project
+    compile 'com.codeviking.kooliteite-js:0.1.2'      // for a Javascript project
+    compile 'com.codeviking.kooliteite-common:0.1.2'  // for common module of a multi-platform project
 }
 ```
 

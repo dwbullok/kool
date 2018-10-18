@@ -1,6 +1,11 @@
+//enableFeaturePreview('GRADLE_METADATA')
+
 rootProject.name = 'koolite'
 
 include ':common'
 include ':jvm'
 include ':js'
-include ':android'
+
+if (INCLUDE_ANDROID == "true") {
+    include 'android'
+}

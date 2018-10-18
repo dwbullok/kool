@@ -8,10 +8,7 @@ android {
     //androidBuildTools = '27.0.3'
     //androidSupport = '25.+'
     compileSdkVersion 27
-    defaultConfig {
-        minSdkVersion 18
-        targetSdkVersion 27
-    }
+    buildToolsVersion '27.0.3'
 
     buildTypes {
         release {
@@ -23,10 +20,17 @@ android {
     lintOptions {
         // fft library references java.awt via dependencies...
         abortOnError = false
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
     }
 }
 
 kotlin { experimental { coroutines 'enable' } }
+
+libraries.android = [
+    "com.android.support:support-v4:${versions.androidSupport}"
+]
+
 
 dependencies {
     expectedBy project(":common")
@@ -39,8 +43,32 @@ dependencies {
     implementation 'com.github.wendykierp:JTransforms:3.1'
 
     testImplementation "org.jetbrains.kotlin:kotlin-test-junit:$versions.kotlin"
+    
+    implementation libraries.android
 }
 
 clean {
     delete new File("$projectDir/../build")
+}
+
+
+task sourcesJar(type: Jar) {
+    from sourceSets.main.kotlin
+    classifier = 'sources'
+}
+
+publishing {
+    publications {
+        publishJar(MavenPublication) {
+            artifact jar 
+            artifact sourcesJar
+            artifactId 'koolite-android'
+        }
+    }
+    api project(':jvm')
+    expectedBy project(':common')
+    compileOnly "org.jetbrains.kotlin:kotlin-stdlib:${versions.kotlin}"
+    testImplementation "junit:junit:4.12"
+    testImplementation "org.jetbrains.kotlin:kotlin-test-junit:${versions.kotlin}"
+    testImplementation "org.jetbrains.kotlin:kotlin-test:${versions.kotlin}"
 }

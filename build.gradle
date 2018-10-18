@@ -1,14 +1,10 @@
 apply from: "versions.gradle"
-
+apply plugin: 'maven-publish'
+    
 buildscript {
     apply from: "versions.gradle"
-    ext {
-        publishingAvailable = new File("${projectDir}/publishing.gradle").exists() 
-        
-
-    }
-    
     repositories {
+        mavenLocal()
         jcenter()
         mavenCentral()
         google()
@@ -22,26 +18,57 @@ buildscript {
         classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:${versions.bintray_plugin}"
     }
 }
-
     
-allprojects {
-    group 'de.fabmax'
-    version '0.1.2'
+group = 'com.codeviking'
+version = '0.1.2'
+    
+print version
+subprojects { pr ->
+
+    apply plugin: 'maven-publish'
+    apply plugin: 'java-library'
+    
+    group = pr.rootProject.group
+    version = pr.rootProject.version
+
+    configurations {
+        packLibs
+    }
 
     repositories {
+        mavenLocal()
         jcenter()
+        maven { url "https://kotlin.bintray.com/kotlinx" }
         mavenCentral()
         google()
-        maven { url "https://kotlin.bintray.com/kotlinx" }
     }
-}
-
-
-subprojects {
-    repositories {
-        jcenter()
-        mavenCentral()
+    
+    
+    jar {
+        baseName = 'koolite'
+        appendix = pr.name
+        dependsOn configurations.packLibs
+        from {
+            configurations.packLibs.collect {zipTree(it)}
+        }
     }
-}
+    task sourcesJar(type: Jar) {
+        from pr.sourceSets.main.allSource
+        classifier = 'sources'
+        baseName = 'koolite'
+        appendix = pr.name
+    }
+        
+        
+    publishing {
+        publications {
+            publishJar(MavenPublication) {
+                artifact jar 
+                artifact sourcesJar
+                artifactId = pr.jar.baseName + "-" + pr.jar.appendix
+            }
+        }
+    }
 
+}
     
