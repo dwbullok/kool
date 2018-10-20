@@ -11,7 +11,7 @@ dependencies {
 }
 
 compileKotlin2Js {
-    kotlinOptions.outputFile = "${buildDir}/web/kool.js"
+    kotlinOptions.outputFile = "${buildDir}/web/kxg.js"
     kotlinOptions.metaInfo = true
     kotlinOptions.sourceMap = true
     kotlinOptions.suppressWarnings = false

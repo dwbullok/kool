@@ -62,7 +62,7 @@ publishing {
         publishJar(MavenPublication) {
             artifact jar 
             artifact sourcesJar
-            artifactId 'koolite-android'
+            artifactId 'kxg-android'
         }
     }
     api project(':jvm')

@@ -1,37 +1,21 @@
-# Kotlin + OpenGL = koolite
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/fabmax/koolite/blob/master/LICENSE)
-[![Download](https://api.bintray.com/packages/fabmax/koolite/kool/images/download.svg)](https://bintray.com/fabmax/kool/kool/_latestVersion)
+# Kotlin + Cross-Platform + Graphics = kxg
 
-A simple OpenGL based graphics engine that works on Desktop Java, Android and
+A simple OpenGL based graphics engine that works on Desktop JVM, Android and
 in browsers with Javascript / WebGL.
+
+This library is a stripped-down and refactored version of [kool](https://fabmax.github.io/kool).
 
 Android version is now merged into main branch, but in IntelliJ the kotlin-platform-android plugin still
 behaves a bit odd (IntelliJ 2018.1 EAP).
 Android build can be disabled by removing the two android modules from settings.gradle...
 
-For now this is just an experiment. However, if you are curious
-you can checkout the [javascript demo](https://fabmax.github.io/koolite/kool-js/?demo=modelDemo).
-The hamburger-button in the upper-left corner triggers the demo chooser menu. Code for
-all demos is available in koolite-demo sub-project.
 
-I started porting a few parts of [Bullet Physics](https://github.com/bulletphysics/bullet3). However, it's work in
-progress and still in a super early state: Only supported shape are boxes, no joints and there is no real broadphase
-yet. That's fine for [a few boxes](https://fabmax.github.io/koolite/kool-js/?demo=boxDemo) but not much more (Actually
-it's surprisingly fast given the fact that there is no intelligent broadphase - JVM implementation handles
-200 bodies, js is slower...).
 
 ## Features / Noticeable stuff:
-- [Mesh Simplification](https://fabmax.github.io/koolite/kool-js/?demo=simplificationDemo) module using error quadrics
-- Added elevation mapping in [OSM Demo](https://fabmax.github.io/koolite/kool-js/?demo=globeDemo) (Europe only) - Zoom in on the alps!
-- Some super-primitive [Physics Simulation](https://fabmax.github.io/koolite/kool-js/?demo=boxDemo)
 - Full support of all features on all platforms
 - Multi-touch support (on Android and Javascript / WebGL)
-- New procedural [Tree Demo](https://fabmax.github.io/koolite/kool-js/?demo=treeDemo)
 - Cascaded shadow maps
-- Vertex shader mesh animation: [Model Demo](https://fabmax.github.io/koolite/kool-js/?demo=modelDemo)
 - Normal mapping
-- OpenStreetMap tile loading: [OSM Demo](https://fabmax.github.io/koolite/kool-js/?demo=globeDemo)
-- Synthie music: [Synthie Demo](https://fabmax.github.io/koolite/kool-js/?demo=synthieDemo), quite CPU intense...
 - Multi-scene / multi-viewport support
 - Some simple UI stuff: Text-Fields, (Toggle-)Buttons, Sliders, Labels
 - Meshes with shared geometry
@@ -47,10 +31,10 @@ it's surprisingly fast given the fact that there is no intelligent broadphase - 
 - Shading with different light (Phong / Gouraud) and color models (vertex, texture or fixed)
 
 ## Hello World Example (spinning cube):
-For more example code checkout koolite-demo sub-project.
+For more example code checkout kxg-demo project.
 ```kotlin
 fun main(args: Array<String>) {
-    // Initialize platform and koolite context
+    // Initialize platform and kxg context
     val ctx = createContext()
     
     // Set some background color
@@ -110,13 +94,13 @@ fun main(args: Array<String>) {
 Library is published on bintray. Use it with gradle:
 ```gradle
 repositories {
-    maven { url 'https://dl.bintray.com/fabmax/koolite/' }
+    maven { url TODO }
 }
 
 dependencies {
-    compile 'com.codeviking.kooliteite-jvm:0.1.2'     // for a JVM project
-    compile 'com.codeviking.kooliteite-js:0.1.2'      // for a Javascript project
-    compile 'com.codeviking.kooliteite-common:0.1.2'  // for common module of a multi-platform project
+    compile 'com.codeviking.kxg-jvm:0.1.2'     // for a JVM project
+    compile 'com.codeviking.kxg-js:0.1.2'      // for a Javascript project
+    compile 'com.codeviking.kxg-common:0.1.2'  // for common module of a multi-platform project
 }
 ```
 
@@ -142,6 +126,3 @@ dependencies {
   Javascript audio synthesizer. Melody of synthie demo is taken from here ("unexpected-token"). My implementation is
   quite different though...
 
-- [Bullet Physics](https://github.com/bulletphysics/bullet3)
-
-  Awesome open-source physics engine. Ported some parts of it.

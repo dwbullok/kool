@@ -1,6 +1,6 @@
 //enableFeaturePreview('GRADLE_METADATA')
 
-rootProject.name = 'koolite'
+rootProject.name = 'kxg'
 
 include ':common'
 include ':jvm'

@@ -45,7 +45,7 @@ subprojects { pr ->
     
     
     jar {
-        baseName = 'koolite'
+        baseName = 'kxg'
         appendix = pr.name
         dependsOn configurations.packLibs
         from {
@@ -55,7 +55,7 @@ subprojects { pr ->
     task sourcesJar(type: Jar) {
         from pr.sourceSets.main.allSource
         classifier = 'sources'
-        baseName = 'koolite'
+        baseName = 'kxg'
         appendix = pr.name
     }
         
