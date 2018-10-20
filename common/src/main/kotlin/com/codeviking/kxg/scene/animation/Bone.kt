@@ -1,6 +1,6 @@
-package com.codeviking.gdx.scene.animation
+package com.codeviking.kxg.scene.animation
 
-import com.codeviking.gdx.math.Mat4f
+import com.codeviking.kxg.math.Mat4f
 
 class Bone(val name: String, numVertices: Int) : AnimatedNode {
     var parent: Bone? = null

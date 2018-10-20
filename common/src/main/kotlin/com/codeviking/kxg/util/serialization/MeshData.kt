@@ -1,11 +1,11 @@
-package com.codeviking.gdx.util.serialization
+package com.codeviking.kxg.util.serialization
 
-import com.codeviking.gdx.KxgException
-import com.codeviking.gdx.scene.Mesh
-import com.codeviking.gdx.scene.animation.Armature
-import com.codeviking.gdx.scene.animation.Bone
-import com.codeviking.gdx.shading.*
-import com.codeviking.gdx.util.serialization.MeshData.Companion.ATTRIB_POSITIONS
+import com.codeviking.kxg.KxgException
+import com.codeviking.kxg.scene.Mesh
+import com.codeviking.kxg.scene.animation.Armature
+import com.codeviking.kxg.scene.animation.Bone
+import com.codeviking.kxg.shading.*
+import com.codeviking.kxg.util.serialization.MeshData.Companion.ATTRIB_POSITIONS
 import kotlinx.serialization.Optional
 import kotlinx.serialization.SerialId
 import kotlinx.serialization.Serializable
@@ -87,7 +87,7 @@ data class MeshData(
         if (hasColors) { attribs += Attribute.COLORS }
         if (hasTexCoords) { attribs += Attribute.TEXTURE_COORDS }
 
-        val meshData = com.codeviking.gdx.scene.MeshData(attribs)
+        val meshData = com.codeviking.kxg.scene.MeshData(attribs)
 
         // add mesh vertices
         val positions = attributes[ATTRIB_POSITIONS] ?: throw KxgException("Mesh has no positions")
@@ -147,7 +147,7 @@ data class MeshData(
     }
 
 
-    private fun buildAramature(meshData: com.codeviking.gdx.scene.MeshData): Armature {
+    private fun buildAramature(meshData: com.codeviking.kxg.scene.MeshData): Armature {
         // create armature with bones
         val mesh = Armature(meshData, name)
 

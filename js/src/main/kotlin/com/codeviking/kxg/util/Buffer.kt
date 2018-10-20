@@ -1,6 +1,6 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.KxgException
+import com.codeviking.kxg.KxgException
 import org.khronos.webgl.*
 
 /**

@@ -1,4 +1,4 @@
-package com.codeviking.gdx.shading
+package com.codeviking.kxg.shading
 
 data class ShadingHints(
         var preferredLightModel: PreferredLightModel,

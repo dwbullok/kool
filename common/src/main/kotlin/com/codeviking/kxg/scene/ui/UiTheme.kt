@@ -1,7 +1,7 @@
-package com.codeviking.gdx.scene.ui
+package com.codeviking.kxg.scene.ui
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.util.*
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.util.*
 
 /**
  * @author fabmax

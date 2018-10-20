@@ -1,17 +1,17 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.RenderPass
-import com.codeviking.gdx.Texture
-import com.codeviking.gdx.gl.Framebuffer
-import com.codeviking.gdx.gl.GL_DEPTH_BUFFER_BIT
-import com.codeviking.gdx.gl.GL_FRONT
-import com.codeviking.gdx.gl.glClear
-import com.codeviking.gdx.math.Mat4f
-import com.codeviking.gdx.math.MutableVec4f
-import com.codeviking.gdx.scene.FrustumPlane
-import com.codeviking.gdx.scene.Node
-import com.codeviking.gdx.scene.OrthographicCamera
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.RenderPass
+import com.codeviking.kxg.Texture
+import com.codeviking.kxg.gl.Framebuffer
+import com.codeviking.kxg.gl.GL_DEPTH_BUFFER_BIT
+import com.codeviking.kxg.gl.GL_FRONT
+import com.codeviking.kxg.gl.glClear
+import com.codeviking.kxg.math.Mat4f
+import com.codeviking.kxg.math.MutableVec4f
+import com.codeviking.kxg.scene.FrustumPlane
+import com.codeviking.kxg.scene.Node
+import com.codeviking.kxg.scene.OrthographicCamera
 
 interface ShadowMap : Disposable {
     val numMaps: Int

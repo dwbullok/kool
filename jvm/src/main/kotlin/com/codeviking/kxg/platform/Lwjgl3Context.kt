@@ -1,10 +1,10 @@
-package com.codeviking.gdx.platform
+package com.codeviking.kxg.platform
 
-import com.codeviking.gdx.*
-import com.codeviking.gdx.gl.GL_DEPTH_COMPONENT
-import com.codeviking.gdx.gl.GL_LINEAR
-import com.codeviking.gdx.gl.GL_MAX_TEXTURE_IMAGE_UNITS
-import com.codeviking.gdx.gl.GL_VERSION
+import com.codeviking.kxg.*
+import com.codeviking.kxg.gl.GL_DEPTH_COMPONENT
+import com.codeviking.kxg.gl.GL_LINEAR
+import com.codeviking.kxg.gl.GL_MAX_TEXTURE_IMAGE_UNITS
+import com.codeviking.kxg.gl.GL_VERSION
 import org.lwjgl.glfw.Callbacks.glfwFreeCallbacks
 import org.lwjgl.glfw.GLFW.*
 import org.lwjgl.opengl.EXTTextureFilterAnisotropic

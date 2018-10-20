@@ -1,9 +1,9 @@
-package com.codeviking.gdx.modules.globe
+package com.codeviking.kxg.modules.globe
 
-import com.codeviking.gdx.math.Mat4d
-import com.codeviking.gdx.math.Vec3d
-import com.codeviking.gdx.scene.Group
-import com.codeviking.gdx.scene.doubleprec.TransformGroupDp
+import com.codeviking.kxg.math.Mat4d
+import com.codeviking.kxg.math.Vec3d
+import com.codeviking.kxg.scene.Group
+import com.codeviking.kxg.scene.doubleprec.TransformGroupDp
 
 class TileFrame(val tileName: TileName, private val globe: Globe) : TransformGroupDp() {
 

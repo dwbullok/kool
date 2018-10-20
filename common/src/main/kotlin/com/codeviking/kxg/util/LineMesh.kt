@@ -1,18 +1,18 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.KxgException
-import com.codeviking.gdx.gl.GL_ALWAYS
-import com.codeviking.gdx.gl.GL_LINES
-import com.codeviking.gdx.gl.GL_TRIANGLES
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.Vec3f
-import com.codeviking.gdx.scene.Mesh
-import com.codeviking.gdx.scene.MeshData
-import com.codeviking.gdx.shading.Attribute
-import com.codeviking.gdx.shading.ColorModel
-import com.codeviking.gdx.shading.LightModel
-import com.codeviking.gdx.shading.basicShader
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.KxgException
+import com.codeviking.kxg.gl.GL_ALWAYS
+import com.codeviking.kxg.gl.GL_LINES
+import com.codeviking.kxg.gl.GL_TRIANGLES
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.Vec3f
+import com.codeviking.kxg.scene.Mesh
+import com.codeviking.kxg.scene.MeshData
+import com.codeviking.kxg.shading.Attribute
+import com.codeviking.kxg.shading.ColorModel
+import com.codeviking.kxg.shading.LightModel
+import com.codeviking.kxg.shading.basicShader
 
 /**
  * @author fabmax

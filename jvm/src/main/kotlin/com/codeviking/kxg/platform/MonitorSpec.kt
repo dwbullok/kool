@@ -1,6 +1,6 @@
-package com.codeviking.gdx.platform
+package com.codeviking.kxg.platform
 
-import com.codeviking.gdx.DesktopImpl
+import com.codeviking.kxg.DesktopImpl
 import org.lwjgl.glfw.GLFW
 import org.lwjgl.glfw.GLFWVidMode
 

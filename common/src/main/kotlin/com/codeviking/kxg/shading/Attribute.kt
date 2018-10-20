@@ -1,7 +1,7 @@
-package com.codeviking.gdx.shading
+package com.codeviking.kxg.shading
 
-import com.codeviking.gdx.gl.GL_FLOAT
-import com.codeviking.gdx.gl.GL_INT
+import com.codeviking.kxg.gl.GL_FLOAT
+import com.codeviking.kxg.gl.GL_INT
 
 /**
  * @author fabmax

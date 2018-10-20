@@ -1,7 +1,7 @@
-package com.codeviking.gdx.modules.audio
+package com.codeviking.kxg.modules.audio
 
-import com.codeviking.gdx.math.clamp
-import com.codeviking.gdx.math.randomF
+import com.codeviking.kxg.math.clamp
+import com.codeviking.kxg.math.randomF
 import kotlin.math.max
 import kotlin.math.pow
 

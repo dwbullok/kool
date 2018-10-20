@@ -1,6 +1,6 @@
-package com.codeviking.gdx.math
+package com.codeviking.kxg.math
 
-import com.codeviking.gdx.scene.Node
+import com.codeviking.kxg.scene.Node
 import kotlin.math.sqrt
 
 /**

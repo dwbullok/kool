@@ -1,13 +1,13 @@
-package com.codeviking.gdx.scene.doubleprec
+package com.codeviking.kxg.scene.doubleprec
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.Mat4dStack
-import com.codeviking.gdx.math.MutableVec3d
-import com.codeviking.gdx.math.RayTest
-import com.codeviking.gdx.math.Vec3f
-import com.codeviking.gdx.scene.Node
-import com.codeviking.gdx.scene.Scene
-import com.codeviking.gdx.util.BoundingBox
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.Mat4dStack
+import com.codeviking.kxg.math.MutableVec3d
+import com.codeviking.kxg.math.RayTest
+import com.codeviking.kxg.math.Vec3f
+import com.codeviking.kxg.scene.Node
+import com.codeviking.kxg.scene.Scene
+import com.codeviking.kxg.util.BoundingBox
 
 abstract class NodeDp(name: String? = null) : Node(name) {
 

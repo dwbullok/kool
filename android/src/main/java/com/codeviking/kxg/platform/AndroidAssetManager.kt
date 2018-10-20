@@ -1,15 +1,15 @@
-package com.codeviking.gdx.platform
+package com.codeviking.kxg.platform
 
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.util.Log
-import com.codeviking.gdx.AssetManager
-import com.codeviking.gdx.KxgException
-import com.codeviking.gdx.TextureData
-import com.codeviking.gdx.util.CharMap
-import com.codeviking.gdx.util.FontProps
-import com.codeviking.gdx.util.logW
+import com.codeviking.kxg.AssetManager
+import com.codeviking.kxg.KxgException
+import com.codeviking.kxg.TextureData
+import com.codeviking.kxg.util.CharMap
+import com.codeviking.kxg.util.FontProps
+import com.codeviking.kxg.util.logW
 import kotlinx.coroutines.experimental.launch
 import java.io.ByteArrayOutputStream
 import java.io.File

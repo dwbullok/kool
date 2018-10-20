@@ -1,7 +1,7 @@
-package com.codeviking.gdx
+package com.codeviking.kxg
 
-import com.codeviking.gdx.gl.*
-import com.codeviking.gdx.util.Uint8Buffer
+import com.codeviking.kxg.gl.*
+import com.codeviking.kxg.util.Uint8Buffer
 
 /**
  * @author fabmax

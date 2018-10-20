@@ -1,4 +1,4 @@
-package com.codeviking.gdx.math
+package com.codeviking.kxg.math
 
 abstract class PointDistribution {
 

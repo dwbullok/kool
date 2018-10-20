@@ -1,7 +1,7 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.KxgException
-import com.codeviking.gdx.math.clamp
+import com.codeviking.kxg.KxgException
+import com.codeviking.kxg.math.clamp
 import kotlin.math.min
 
 /**

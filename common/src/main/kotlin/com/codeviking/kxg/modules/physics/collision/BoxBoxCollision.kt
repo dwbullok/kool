@@ -1,8 +1,8 @@
-package com.codeviking.gdx.modules.physics.collision
+package com.codeviking.kxg.modules.physics.collision
 
-import com.codeviking.gdx.math.*
-import com.codeviking.gdx.modules.physics.Box
-import com.codeviking.gdx.modules.physics.RigidBody
+import com.codeviking.kxg.math.*
+import com.codeviking.kxg.modules.physics.Box
+import com.codeviking.kxg.modules.physics.RigidBody
 import kotlin.math.abs
 import kotlin.math.sign
 import kotlin.math.sqrt

@@ -1,4 +1,4 @@
-package com.codeviking.gdx.scene.animation
+package com.codeviking.kxg.scene.animation
 
 class Animation(val duration: Float) {
 

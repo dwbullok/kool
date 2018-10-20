@@ -1,4 +1,4 @@
-package com.codeviking.gdx.math
+package com.codeviking.kxg.math
 
 import kotlin.math.abs
 import kotlin.math.cos

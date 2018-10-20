@@ -1,10 +1,10 @@
-package com.codeviking.gdx.platform
+package com.codeviking.kxg.platform
 
-import com.codeviking.gdx.AssetManager
-import com.codeviking.gdx.TextureData
-import com.codeviking.gdx.util.CharMap
-import com.codeviking.gdx.util.FontProps
-import com.codeviking.gdx.util.logE
+import com.codeviking.kxg.AssetManager
+import com.codeviking.kxg.TextureData
+import com.codeviking.kxg.util.CharMap
+import com.codeviking.kxg.util.FontProps
+import com.codeviking.kxg.util.logE
 import org.khronos.webgl.ArrayBuffer
 import org.khronos.webgl.Uint8Array
 import org.khronos.webgl.get

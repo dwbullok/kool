@@ -1,9 +1,9 @@
-package com.codeviking.gdx.scene.ui
+package com.codeviking.kxg.scene.ui
 
-import com.codeviking.gdx.InputManager
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.clamp
-import com.codeviking.gdx.util.*
+import com.codeviking.kxg.InputManager
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.clamp
+import com.codeviking.kxg.util.*
 import kotlin.math.max
 import kotlin.math.min
 

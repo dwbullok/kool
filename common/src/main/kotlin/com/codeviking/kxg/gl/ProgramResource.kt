@@ -1,6 +1,6 @@
-package com.codeviking.gdx.gl
+package com.codeviking.kxg.gl
 
-import com.codeviking.gdx.KxgContext
+import com.codeviking.kxg.KxgContext
 
 class ProgramResource private constructor(glRef: Any, ctx: KxgContext) : GlResource(glRef, Type.PROGRAM, ctx) {
     companion object {

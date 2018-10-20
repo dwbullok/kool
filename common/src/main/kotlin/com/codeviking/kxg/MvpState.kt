@@ -1,8 +1,8 @@
-package com.codeviking.gdx
+package com.codeviking.kxg
 
-import com.codeviking.gdx.math.Mat4f
-import com.codeviking.gdx.math.Mat4fStack
-import com.codeviking.gdx.util.createFloat32Buffer
+import com.codeviking.kxg.math.Mat4f
+import com.codeviking.kxg.math.Mat4fStack
+import com.codeviking.kxg.util.createFloat32Buffer
 
 
 /**

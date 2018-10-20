@@ -1,6 +1,6 @@
-package com.codeviking.gdx.modules.globe.elevation
+package com.codeviking.kxg.modules.globe.elevation
 
-import com.codeviking.gdx.AssetManager
+import com.codeviking.kxg.AssetManager
 import kotlinx.serialization.SerialId
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.Transient

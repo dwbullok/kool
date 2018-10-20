@@ -1,9 +1,9 @@
-package com.codeviking.gdx.scene.ui
+package com.codeviking.kxg.scene.ui
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.Vec3f
-import com.codeviking.gdx.util.BoundingBox
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.Vec3f
+import com.codeviking.kxg.util.BoundingBox
 
 /**
  * @author fabmax

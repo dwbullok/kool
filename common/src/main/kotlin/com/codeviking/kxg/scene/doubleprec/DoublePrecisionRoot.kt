@@ -1,10 +1,10 @@
-package com.codeviking.gdx.scene.doubleprec
+package com.codeviking.kxg.scene.doubleprec
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.Mat4dStack
-import com.codeviking.gdx.math.RayTest
-import com.codeviking.gdx.scene.Node
-import com.codeviking.gdx.scene.Scene
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.Mat4dStack
+import com.codeviking.kxg.math.RayTest
+import com.codeviking.kxg.scene.Node
+import com.codeviking.kxg.scene.Scene
 
 fun doublePrecisionTransform(name: String? = null, block: TransformGroupDp.() -> Unit): DoublePrecisionRoot<TransformGroupDp> {
     val root = DoublePrecisionRoot(TransformGroupDp("${name ?: "DoublePrecisionRoot"}-rootGroup"), name)

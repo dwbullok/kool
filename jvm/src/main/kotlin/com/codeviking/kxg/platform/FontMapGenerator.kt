@@ -1,11 +1,11 @@
-package com.codeviking.gdx.platform
+package com.codeviking.kxg.platform
 
-import com.codeviking.gdx.BufferedTextureData
-import com.codeviking.gdx.gl.GL_ALPHA
-import com.codeviking.gdx.util.CharMap
-import com.codeviking.gdx.util.CharMetrics
-import com.codeviking.gdx.util.Font
-import com.codeviking.gdx.util.FontProps
+import com.codeviking.kxg.BufferedTextureData
+import com.codeviking.kxg.gl.GL_ALPHA
+import com.codeviking.kxg.util.CharMap
+import com.codeviking.kxg.util.CharMetrics
+import com.codeviking.kxg.util.Font
+import com.codeviking.kxg.util.FontProps
 import java.awt.Color
 import java.awt.Graphics2D
 import java.awt.GraphicsEnvironment

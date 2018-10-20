@@ -1,7 +1,7 @@
-package com.codeviking.gdx.gl
+package com.codeviking.kxg.gl
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.TextureProps
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.TextureProps
 import kotlin.math.max
 
 class TextureResource private constructor(glRef: Any, val target: Int, val props: TextureProps, ctx: KxgContext) :

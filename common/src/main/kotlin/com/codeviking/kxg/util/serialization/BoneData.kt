@@ -1,4 +1,4 @@
-package com.codeviking.gdx.util.serialization
+package com.codeviking.kxg.util.serialization
 
 import kotlinx.serialization.Optional
 import kotlinx.serialization.SerialId

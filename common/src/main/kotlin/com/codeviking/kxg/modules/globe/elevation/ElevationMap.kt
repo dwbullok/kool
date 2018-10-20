@@ -1,7 +1,7 @@
-package com.codeviking.gdx.modules.globe.elevation
+package com.codeviking.kxg.modules.globe.elevation
 
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.Vec3f
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.Vec3f
 
 interface ElevationMapProvider {
     fun getElevationMapAt(lat: Double, lon: Double, resolution: Double): ElevationMap?

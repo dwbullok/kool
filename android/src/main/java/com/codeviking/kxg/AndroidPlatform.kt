@@ -1,6 +1,6 @@
-package com.codeviking.gdx
+package com.codeviking.kxg
 
-import com.codeviking.gdx.math.clamp
+import com.codeviking.kxg.math.clamp
 import java.util.*
 
 /**

@@ -1,13 +1,13 @@
-package com.codeviking.gdx.gl
+package com.codeviking.kxg.gl
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.Texture
-import com.codeviking.gdx.TextureData
-import com.codeviking.gdx.TextureProps
-import com.codeviking.gdx.util.Disposable
-import com.codeviking.gdx.util.UniqueId
-import com.codeviking.gdx.util.logE
-import com.codeviking.gdx.util.logW
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.Texture
+import com.codeviking.kxg.TextureData
+import com.codeviking.kxg.TextureProps
+import com.codeviking.kxg.util.Disposable
+import com.codeviking.kxg.util.UniqueId
+import com.codeviking.kxg.util.logE
+import com.codeviking.kxg.util.logW
 
 class Framebuffer(val width: Int, val height: Int) : Disposable {
 

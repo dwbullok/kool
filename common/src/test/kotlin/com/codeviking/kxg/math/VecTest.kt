@@ -1,6 +1,6 @@
-package com.codeviking.gdx.math
+package com.codeviking.kxg.math
 
-import com.codeviking.gdx.testAssert
+import com.codeviking.kxg.testAssert
 import kotlin.math.sqrt
 import kotlin.test.Test
 

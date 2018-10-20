@@ -1,8 +1,8 @@
-package com.codeviking.gdx.shading
+package com.codeviking.kxg.shading
 
-import com.codeviking.gdx.Texture
-import com.codeviking.gdx.util.Color
-import com.codeviking.gdx.util.ShadowMap
+import com.codeviking.kxg.Texture
+import com.codeviking.kxg.util.Color
+import com.codeviking.kxg.util.ShadowMap
 
 enum class LightModel {
     PHONG_LIGHTING,

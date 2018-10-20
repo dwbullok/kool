@@ -1,7 +1,7 @@
-package com.codeviking.gdx.shading
+package com.codeviking.kxg.shading
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.scene.animation.Armature
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.scene.animation.Armature
 
 /**
  * @author fabmax

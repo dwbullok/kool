@@ -1,8 +1,8 @@
-package com.codeviking.gdx.modules.globe
+package com.codeviking.kxg.modules.globe
 
-import com.codeviking.gdx.InputManager
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.*
+import com.codeviking.kxg.InputManager
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.*
 import kotlin.math.sqrt
 
 class GlobeDragHandler(val globe: Globe) : InputManager.DragHandler {

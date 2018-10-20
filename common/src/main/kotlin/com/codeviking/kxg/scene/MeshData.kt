@@ -1,13 +1,13 @@
-package com.codeviking.gdx.scene
+package com.codeviking.kxg.scene
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.gl.*
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.Vec2f
-import com.codeviking.gdx.math.Vec3f
-import com.codeviking.gdx.shading.Attribute
-import com.codeviking.gdx.shading.VboBinder
-import com.codeviking.gdx.util.*
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.gl.*
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.Vec2f
+import com.codeviking.kxg.math.Vec3f
+import com.codeviking.kxg.shading.Attribute
+import com.codeviking.kxg.shading.VboBinder
+import com.codeviking.kxg.util.*
 
 class MeshData(val vertexAttributes: Set<Attribute>) : Disposable {
     val vertexList = IndexedVertexList(vertexAttributes)

@@ -1,4 +1,4 @@
-package com.codeviking.gdx.scene.ui
+package com.codeviking.kxg.scene.ui
 
 import kotlin.math.round
 

@@ -1,16 +1,16 @@
-package com.codeviking.gdx.shading
+package com.codeviking.kxg.shading
 
-import com.codeviking.gdx.*
-import com.codeviking.gdx.gl.*
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.scene.Camera
-import com.codeviking.gdx.scene.Mesh
-import com.codeviking.gdx.scene.Node
-import com.codeviking.gdx.scene.textureMesh
-import com.codeviking.gdx.util.BoundingBox
-import com.codeviking.gdx.util.Color
-import com.codeviking.gdx.util.Disposable
-import com.codeviking.gdx.util.UniqueId
+import com.codeviking.kxg.*
+import com.codeviking.kxg.gl.*
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.scene.Camera
+import com.codeviking.kxg.scene.Mesh
+import com.codeviking.kxg.scene.Node
+import com.codeviking.kxg.scene.textureMesh
+import com.codeviking.kxg.util.BoundingBox
+import com.codeviking.kxg.util.Color
+import com.codeviking.kxg.util.Disposable
+import com.codeviking.kxg.util.UniqueId
 import kotlin.math.max
 import kotlin.math.min
 

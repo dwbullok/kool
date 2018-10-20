@@ -1,10 +1,10 @@
-package com.codeviking.gdx.modules.physics.constraintSolver
+package com.codeviking.kxg.modules.physics.constraintSolver
 
-import com.codeviking.gdx.math.Mat4f
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.MutableVec4f
-import com.codeviking.gdx.math.Vec3f
-import com.codeviking.gdx.modules.physics.RigidBody
+import com.codeviking.kxg.math.Mat4f
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.MutableVec4f
+import com.codeviking.kxg.math.Vec3f
+import com.codeviking.kxg.modules.physics.RigidBody
 import kotlin.math.PI
 import kotlin.math.cos
 import kotlin.math.sin

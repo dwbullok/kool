@@ -1,12 +1,12 @@
-package com.codeviking.gdx.platform
+package com.codeviking.kxg.platform
 
-import com.codeviking.gdx.JsImpl
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.Texture
-import com.codeviking.gdx.TextureData
-import com.codeviking.gdx.gl.GL_RGBA
-import com.codeviking.gdx.gl.GL_TEXTURE_2D
-import com.codeviking.gdx.gl.GL_UNSIGNED_BYTE
+import com.codeviking.kxg.JsImpl
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.Texture
+import com.codeviking.kxg.TextureData
+import com.codeviking.kxg.gl.GL_RGBA
+import com.codeviking.kxg.gl.GL_TEXTURE_2D
+import com.codeviking.kxg.gl.GL_UNSIGNED_BYTE
 import org.w3c.dom.HTMLImageElement
 
 class ImageTextureData(val image: HTMLImageElement) : TextureData() {

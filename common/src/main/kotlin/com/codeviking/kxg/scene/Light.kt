@@ -1,8 +1,8 @@
-package com.codeviking.gdx.scene
+package com.codeviking.kxg.scene
 
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.util.Color
-import com.codeviking.gdx.util.MutableColor
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.util.Color
+import com.codeviking.kxg.util.MutableColor
 
 /**
  * @author fabmax

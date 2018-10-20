@@ -1,7 +1,7 @@
-package com.codeviking.gdx.modules.physics.constraintSolver
+package com.codeviking.kxg.modules.physics.constraintSolver
 
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.modules.physics.collision.Contact
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.modules.physics.collision.Contact
 
 class ContactPoint {
     val positionWorldOnA = MutableVec3f()

@@ -1,6 +1,6 @@
-package com.codeviking.gdx.modules.audio
+package com.codeviking.kxg.modules.audio
 
-import com.codeviking.gdx.math.clamp
+import com.codeviking.kxg.math.clamp
 
 /**
  * @author fabmax

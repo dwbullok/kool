@@ -1,10 +1,10 @@
-package com.codeviking.gdx.scene.ui
+package com.codeviking.kxg.scene.ui
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.RayTest
-import com.codeviking.gdx.scene.TransformGroup
-import com.codeviking.gdx.util.BoundingBox
-import com.codeviking.gdx.util.MeshBuilder
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.RayTest
+import com.codeviking.kxg.scene.TransformGroup
+import com.codeviking.kxg.util.BoundingBox
+import com.codeviking.kxg.util.MeshBuilder
 
 /**
  * Base class for all UI components.

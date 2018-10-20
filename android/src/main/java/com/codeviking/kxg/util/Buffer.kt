@@ -1,4 +1,4 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
 import java.nio.*
 import java.nio.Buffer
@@ -6,7 +6,7 @@ import java.nio.Buffer
 /**
  * @author fabmax
  */
-internal abstract class GenericBuffer<out B: Buffer>(override val capacity: Int, create: () -> B) : com.codeviking.gdx.util.Buffer {
+internal abstract class GenericBuffer<out B: Buffer>(override val capacity: Int, create: () -> B) : com.codeviking.kxg.util.Buffer {
     val buffer = create()
 
     override var limit: Int

@@ -1,4 +1,4 @@
-package com.codeviking.gdx
+package com.codeviking.kxg
 
 data class GlCapabilities(
         val uint32Indices: Boolean,

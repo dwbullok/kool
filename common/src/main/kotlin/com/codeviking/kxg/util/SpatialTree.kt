@@ -1,12 +1,12 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.gl.GL_LINES
-import com.codeviking.gdx.gl.GL_TRIANGLES
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.Ray
-import com.codeviking.gdx.math.Vec3f
-import com.codeviking.gdx.math.isFuzzyZero
-import com.codeviking.gdx.scene.MeshData
+import com.codeviking.kxg.gl.GL_LINES
+import com.codeviking.kxg.gl.GL_TRIANGLES
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.Ray
+import com.codeviking.kxg.math.Vec3f
+import com.codeviking.kxg.math.isFuzzyZero
+import com.codeviking.kxg.scene.MeshData
 import kotlin.math.min
 
 fun <T: Vec3f> pointKdTree(points: List<T>, bucketSz: Int = 20): KdTree<T> {

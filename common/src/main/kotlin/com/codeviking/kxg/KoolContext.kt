@@ -1,9 +1,9 @@
-package com.codeviking.gdx
+package com.codeviking.kxg
 
-import com.codeviking.gdx.gl.*
-import com.codeviking.gdx.scene.Scene
-import com.codeviking.gdx.util.Color
-import com.codeviking.gdx.util.Property
+import com.codeviking.kxg.gl.*
+import com.codeviking.kxg.scene.Scene
+import com.codeviking.kxg.util.Color
+import com.codeviking.kxg.util.Property
 
 /**
  * @author fabmax

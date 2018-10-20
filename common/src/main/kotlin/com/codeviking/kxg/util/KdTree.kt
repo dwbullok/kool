@@ -1,7 +1,7 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.partition
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.partition
 
 /**
  * @author fabmax

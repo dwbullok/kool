@@ -1,7 +1,7 @@
-package com.codeviking.gdx.modules.globe.elevation
+package com.codeviking.kxg.modules.globe.elevation
 
-import com.codeviking.gdx.AssetManager
-import com.codeviking.gdx.util.logD
+import com.codeviking.kxg.AssetManager
+import com.codeviking.kxg.util.logD
 
 class ElevationMapHierarchy(private val baseDir: String, metaHierarchy: ElevationMapMetaHierarchy, private val assetMgr: AssetManager) : ElevationMapProvider {
 

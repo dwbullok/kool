@@ -1,9 +1,9 @@
-package com.codeviking.gdx.scene
+package com.codeviking.kxg.scene
 
-import com.codeviking.gdx.gl.GL_LINES
-import com.codeviking.gdx.gl.GL_TRIANGLES
-import com.codeviking.gdx.math.RayTest
-import com.codeviking.gdx.util.*
+import com.codeviking.kxg.gl.GL_LINES
+import com.codeviking.kxg.gl.GL_TRIANGLES
+import com.codeviking.kxg.math.RayTest
+import com.codeviking.kxg.util.*
 import kotlin.math.sqrt
 
 interface MeshRayTest {

@@ -1,7 +1,7 @@
-package com.codeviking.gdx.modules.globe
+package com.codeviking.kxg.modules.globe
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.util.logE
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.util.logE
 import kotlin.math.max
 import kotlin.math.min
 

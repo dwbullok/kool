@@ -17,13 +17,13 @@
  * limitations under the License.
  */
 
-package com.codeviking.gdx.util.serialization
+package com.codeviking.kxg.util.serialization
 
-import com.codeviking.gdx.util.serialization.ProtoBufPacked.Varint.decodeSignedVarintInt
-import com.codeviking.gdx.util.serialization.ProtoBufPacked.Varint.decodeSignedVarintLong
-import com.codeviking.gdx.util.serialization.ProtoBufPacked.Varint.decodeVarint
-import com.codeviking.gdx.util.serialization.ProtoBufPacked.Varint.decodeVarlong
-import com.codeviking.gdx.util.serialization.ProtoBufPacked.Varint.encodeVarint
+import com.codeviking.kxg.util.serialization.ProtoBufPacked.Varint.decodeSignedVarintInt
+import com.codeviking.kxg.util.serialization.ProtoBufPacked.Varint.decodeSignedVarintLong
+import com.codeviking.kxg.util.serialization.ProtoBufPacked.Varint.decodeVarint
+import com.codeviking.kxg.util.serialization.ProtoBufPacked.Varint.decodeVarlong
+import com.codeviking.kxg.util.serialization.ProtoBufPacked.Varint.encodeVarint
 import kotlinx.io.*
 import kotlinx.serialization.*
 import kotlinx.serialization.internal.HexConverter

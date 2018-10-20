@@ -1,6 +1,6 @@
-package com.codeviking.gdx.modules.globe.elevation
+package com.codeviking.kxg.modules.globe.elevation
 
-import com.codeviking.gdx.math.FUZZY_EQ_F
+import com.codeviking.kxg.math.FUZZY_EQ_F
 
 interface BoundedElevationMap : ElevationMap {
     val west: Double

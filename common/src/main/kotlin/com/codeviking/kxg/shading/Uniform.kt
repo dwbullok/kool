@@ -1,12 +1,12 @@
-package com.codeviking.gdx.shading
+package com.codeviking.kxg.shading
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.Texture
-import com.codeviking.gdx.gl.*
-import com.codeviking.gdx.math.MutableVec2f
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.MutableVec4f
-import com.codeviking.gdx.util.Float32Buffer
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.Texture
+import com.codeviking.kxg.gl.*
+import com.codeviking.kxg.math.MutableVec2f
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.MutableVec4f
+import com.codeviking.kxg.util.Float32Buffer
 
 
 abstract class Uniform<T>(val name: String, value: T) {

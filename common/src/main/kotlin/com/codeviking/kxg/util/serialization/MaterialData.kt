@@ -1,7 +1,7 @@
-package com.codeviking.gdx.util.serialization
+package com.codeviking.kxg.util.serialization
 
-import com.codeviking.gdx.util.Color
-import com.codeviking.gdx.util.MutableColor
+import com.codeviking.kxg.util.Color
+import com.codeviking.kxg.util.MutableColor
 import kotlinx.serialization.Optional
 import kotlinx.serialization.SerialId
 import kotlinx.serialization.Serializable

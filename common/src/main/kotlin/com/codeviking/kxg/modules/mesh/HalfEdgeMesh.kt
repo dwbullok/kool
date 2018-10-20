@@ -1,15 +1,15 @@
-package com.codeviking.gdx.modules.mesh
+package com.codeviking.kxg.modules.mesh
 
-import com.codeviking.gdx.KxgException
-import com.codeviking.gdx.gl.GL_TRIANGLES
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.MutableVec4f
-import com.codeviking.gdx.math.Vec3f
-import com.codeviking.gdx.math.isFuzzyZero
-import com.codeviking.gdx.scene.Mesh
-import com.codeviking.gdx.scene.MeshData
-import com.codeviking.gdx.shading.Attribute
-import com.codeviking.gdx.util.*
+import com.codeviking.kxg.KxgException
+import com.codeviking.kxg.gl.GL_TRIANGLES
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.MutableVec4f
+import com.codeviking.kxg.math.Vec3f
+import com.codeviking.kxg.math.isFuzzyZero
+import com.codeviking.kxg.scene.Mesh
+import com.codeviking.kxg.scene.MeshData
+import com.codeviking.kxg.shading.Attribute
+import com.codeviking.kxg.util.*
 import kotlin.math.abs
 import kotlin.math.max
 import kotlin.math.min

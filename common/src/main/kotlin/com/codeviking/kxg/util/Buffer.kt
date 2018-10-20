@@ -1,4 +1,4 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
 /**
  * Super class for platform-dependent buffers. In the JVM these buffers directly map to the corresponding NIO buffers.

@@ -1,17 +1,17 @@
-package com.codeviking.gdx.modules.physics
+package com.codeviking.kxg.modules.physics
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.Vec3f
-import com.codeviking.gdx.scene.Mesh
-import com.codeviking.gdx.scene.MeshData
-import com.codeviking.gdx.shading.Attribute
-import com.codeviking.gdx.shading.ColorModel
-import com.codeviking.gdx.shading.LightModel
-import com.codeviking.gdx.shading.basicShader
-import com.codeviking.gdx.util.Color
-import com.codeviking.gdx.util.MeshBuilder
-import com.codeviking.gdx.util.ShadowMap
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.Vec3f
+import com.codeviking.kxg.scene.Mesh
+import com.codeviking.kxg.scene.MeshData
+import com.codeviking.kxg.shading.Attribute
+import com.codeviking.kxg.shading.ColorModel
+import com.codeviking.kxg.shading.LightModel
+import com.codeviking.kxg.shading.basicShader
+import com.codeviking.kxg.util.Color
+import com.codeviking.kxg.util.MeshBuilder
+import com.codeviking.kxg.util.ShadowMap
 
 
 class BoxMesh(val box: RigidBody, boxColor: Color = Color.MD_GREY, sceneShadows: ShadowMap? = null) :

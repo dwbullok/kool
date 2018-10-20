@@ -1,18 +1,18 @@
-package com.codeviking.gdx.scene.animation
+package com.codeviking.kxg.scene.animation
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.Mat4f
-import com.codeviking.gdx.math.Mat4fStack
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.scene.Mesh
-import com.codeviking.gdx.scene.MeshData
-import com.codeviking.gdx.shading.Attribute
-import com.codeviking.gdx.shading.AttributeType
-import com.codeviking.gdx.shading.BasicShader
-import com.codeviking.gdx.util.Float32Buffer
-import com.codeviking.gdx.util.IndexedVertexList
-import com.codeviking.gdx.util.createFloat32Buffer
-import com.codeviking.gdx.util.logW
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.Mat4f
+import com.codeviking.kxg.math.Mat4fStack
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.scene.Mesh
+import com.codeviking.kxg.scene.MeshData
+import com.codeviking.kxg.shading.Attribute
+import com.codeviking.kxg.shading.AttributeType
+import com.codeviking.kxg.shading.BasicShader
+import com.codeviking.kxg.util.Float32Buffer
+import com.codeviking.kxg.util.IndexedVertexList
+import com.codeviking.kxg.util.createFloat32Buffer
+import com.codeviking.kxg.util.logW
 
 class Armature(meshData: MeshData, name: String?) : Mesh(meshData, name) {
 

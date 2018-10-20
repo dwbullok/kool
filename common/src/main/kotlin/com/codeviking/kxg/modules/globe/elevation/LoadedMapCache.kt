@@ -1,6 +1,6 @@
-package com.codeviking.gdx.modules.globe.elevation
+package com.codeviking.kxg.modules.globe.elevation
 
-import com.codeviking.gdx.AssetManager
+import com.codeviking.kxg.AssetManager
 
 class LoadedMapCache(private val maxMaps: Int) {
 

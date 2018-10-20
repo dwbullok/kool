@@ -1,9 +1,9 @@
-package com.codeviking.gdx.modules.physics
+package com.codeviking.kxg.modules.physics
 
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.modules.physics.collision.BoxBoxCollision
-import com.codeviking.gdx.modules.physics.collision.Contacts
-import com.codeviking.gdx.modules.physics.constraintSolver.SequentialImpulseConstraintSolver
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.modules.physics.collision.BoxBoxCollision
+import com.codeviking.kxg.modules.physics.collision.Contacts
+import com.codeviking.kxg.modules.physics.constraintSolver.SequentialImpulseConstraintSolver
 import kotlin.math.min
 
 class CollisionWorld {

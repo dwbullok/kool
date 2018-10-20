@@ -1,11 +1,11 @@
-package com.codeviking.gdx.modules.globe
+package com.codeviking.kxg.modules.globe
 
-import com.codeviking.gdx.math.MutableVec3d
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.Vec2f
-import com.codeviking.gdx.math.toDeg
-import com.codeviking.gdx.modules.globe.elevation.ElevationMap
-import com.codeviking.gdx.util.MeshBuilder
+import com.codeviking.kxg.math.MutableVec3d
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.Vec2f
+import com.codeviking.kxg.math.toDeg
+import com.codeviking.kxg.modules.globe.elevation.ElevationMap
+import com.codeviking.kxg.util.MeshBuilder
 import kotlinx.coroutines.experimental.delay
 import kotlinx.coroutines.experimental.yield
 import kotlin.math.*

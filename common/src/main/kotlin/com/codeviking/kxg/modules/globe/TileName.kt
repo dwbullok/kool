@@ -1,8 +1,8 @@
-package com.codeviking.gdx.modules.globe
+package com.codeviking.kxg.modules.globe
 
-import com.codeviking.gdx.math.clamp
-import com.codeviking.gdx.math.toDeg
-import com.codeviking.gdx.math.toRad
+import com.codeviking.kxg.math.clamp
+import com.codeviking.kxg.math.toDeg
+import com.codeviking.kxg.math.toRad
 import kotlin.math.*
 
 /**

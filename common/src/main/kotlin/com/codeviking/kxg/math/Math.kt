@@ -1,6 +1,6 @@
 @file:Suppress("NOTHING_TO_INLINE")
 
-package com.codeviking.gdx.math
+package com.codeviking.kxg.math
 
 import kotlin.math.PI
 import kotlin.math.abs

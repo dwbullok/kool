@@ -1,4 +1,4 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
 class PriorityQueue<T>(comparator: Comparator<T>? = null) : Collection<T> {
 

@@ -1,9 +1,9 @@
-package com.codeviking.gdx.scene
+package com.codeviking.kxg.scene
 
-import com.codeviking.gdx.InputManager
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.*
-import com.codeviking.gdx.util.BoundingBox
+import com.codeviking.kxg.InputManager
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.*
+import com.codeviking.kxg.util.BoundingBox
 import kotlin.math.abs
 import kotlin.math.min
 import kotlin.math.sqrt

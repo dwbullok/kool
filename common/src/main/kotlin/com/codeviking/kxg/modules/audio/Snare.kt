@@ -1,4 +1,4 @@
-package com.codeviking.gdx.modules.audio
+package com.codeviking.kxg.modules.audio
 
 /**
  * @author fabmax

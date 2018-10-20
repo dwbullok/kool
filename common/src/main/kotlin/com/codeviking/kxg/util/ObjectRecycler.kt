@@ -1,4 +1,4 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
 /**
  * A simple helper class for recycling temporary objects. Object recycling can avoid flooding the heap with temporary

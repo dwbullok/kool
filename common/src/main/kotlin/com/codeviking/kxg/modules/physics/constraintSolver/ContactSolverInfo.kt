@@ -1,4 +1,4 @@
-package com.codeviking.gdx.modules.physics.constraintSolver
+package com.codeviking.kxg.modules.physics.constraintSolver
 
 /**
  * Ported from b3ContactSolverInfo.h

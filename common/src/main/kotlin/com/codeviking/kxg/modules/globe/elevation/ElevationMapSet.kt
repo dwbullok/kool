@@ -1,6 +1,6 @@
-package com.codeviking.gdx.modules.globe.elevation
+package com.codeviking.kxg.modules.globe.elevation
 
-import com.codeviking.gdx.math.isFuzzyEqual
+import com.codeviking.kxg.math.isFuzzyEqual
 import kotlin.math.floor
 
 class ElevationMapSet(metas: List<ElevationMapMeta>) {

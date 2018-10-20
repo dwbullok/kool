@@ -1,12 +1,12 @@
-package com.codeviking.gdx.platform
+package com.codeviking.kxg.platform
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.KxgException
-import com.codeviking.gdx.Texture
-import com.codeviking.gdx.TextureData
-import com.codeviking.gdx.gl.*
-import com.codeviking.gdx.util.Uint8Buffer
-import com.codeviking.gdx.util.createUint8Buffer
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.KxgException
+import com.codeviking.kxg.Texture
+import com.codeviking.kxg.TextureData
+import com.codeviking.kxg.gl.*
+import com.codeviking.kxg.util.Uint8Buffer
+import com.codeviking.kxg.util.createUint8Buffer
 import java.awt.Transparency
 import java.awt.image.BufferedImage
 import java.awt.image.DataBufferByte

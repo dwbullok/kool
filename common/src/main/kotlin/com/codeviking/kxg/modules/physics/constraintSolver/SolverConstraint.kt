@@ -1,7 +1,7 @@
-package com.codeviking.gdx.modules.physics.constraintSolver
+package com.codeviking.kxg.modules.physics.constraintSolver
 
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.Vec3f
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.Vec3f
 
 /**
  * 1D constraint along a normal axis between bodyA and bodyB. It can be combined to solve contact and friction

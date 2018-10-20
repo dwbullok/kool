@@ -1,7 +1,7 @@
-package com.codeviking.gdx.modules.mesh.simplification
+package com.codeviking.kxg.modules.mesh.simplification
 
-import com.codeviking.gdx.math.*
-import com.codeviking.gdx.modules.mesh.HalfEdgeMesh
+import com.codeviking.kxg.math.*
+import com.codeviking.kxg.modules.mesh.HalfEdgeMesh
 
 class ErrorQuadric(val vertex: HalfEdgeMesh.HalfEdgeVertex) {
 

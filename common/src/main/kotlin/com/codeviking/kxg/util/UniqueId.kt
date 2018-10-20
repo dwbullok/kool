@@ -1,4 +1,4 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
 object UniqueId {
     private var nextId = 1L

@@ -1,6 +1,6 @@
-package com.codeviking.gdx.platform
+package com.codeviking.kxg.platform
 
-import com.codeviking.gdx.KxgException
+import com.codeviking.kxg.KxgException
 import kotlinx.coroutines.experimental.*
 import java.io.*
 import java.net.URL

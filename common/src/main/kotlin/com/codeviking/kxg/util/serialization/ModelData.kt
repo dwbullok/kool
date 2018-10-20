@@ -1,7 +1,7 @@
-package com.codeviking.gdx.util.serialization
+package com.codeviking.kxg.util.serialization
 
-import com.codeviking.gdx.math.Mat4f
-import com.codeviking.gdx.util.logW
+import com.codeviking.kxg.math.Mat4f
+import com.codeviking.kxg.util.logW
 import kotlinx.serialization.Optional
 import kotlinx.serialization.SerialId
 import kotlinx.serialization.Serializable

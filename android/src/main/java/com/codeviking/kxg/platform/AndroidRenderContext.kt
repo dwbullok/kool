@@ -1,4 +1,4 @@
-package com.codeviking.gdx.platform
+package com.codeviking.kxg.platform
 
 import android.content.Context
 import android.content.Intent
@@ -10,8 +10,8 @@ import android.opengl.GLSurfaceView
 import android.util.Log
 import android.view.MotionEvent
 import android.view.View
-import com.codeviking.gdx.*
-import com.codeviking.gdx.gl.*
+import com.codeviking.kxg.*
+import com.codeviking.kxg.gl.*
 import javax.microedition.khronos.egl.EGL10
 import javax.microedition.khronos.egl.EGLConfig
 import javax.microedition.khronos.egl.EGLContext
@@ -44,17 +44,17 @@ class AndroidRenderContext(val context: Context, val glView: GLSurfaceView, val 
 
     init {
         // install logging handler
-        com.codeviking.gdx.util.Log.printer = { lvl, tag, message ->
+        com.codeviking.kxg.util.Log.printer = { lvl, tag, message ->
             var t = tag ?: "Kxg"
             if (t.length > 23) {
                 t = t.substring(0..22)
             }
             when (lvl) {
-                com.codeviking.gdx.util.Log.Level.TRACE -> Log.d(t, message)
-                com.codeviking.gdx.util.Log.Level.DEBUG -> Log.d(t, message)
-                com.codeviking.gdx.util.Log.Level.INFO -> Log.i(t, message)
-                com.codeviking.gdx.util.Log.Level.WARN -> Log.w(t, message)
-                com.codeviking.gdx.util.Log.Level.ERROR -> Log.e(t, message)
+                com.codeviking.kxg.util.Log.Level.TRACE -> Log.d(t, message)
+                com.codeviking.kxg.util.Log.Level.DEBUG -> Log.d(t, message)
+                com.codeviking.kxg.util.Log.Level.INFO -> Log.i(t, message)
+                com.codeviking.kxg.util.Log.Level.WARN -> Log.w(t, message)
+                com.codeviking.kxg.util.Log.Level.ERROR -> Log.e(t, message)
                 else -> { }
             }
         }

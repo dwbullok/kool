@@ -1,15 +1,15 @@
-package com.codeviking.gdx.scene.ui
+package com.codeviking.kxg.scene.ui
 
-import com.codeviking.gdx.InputManager
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.MutableVec2f
-import com.codeviking.gdx.math.clamp
-import com.codeviking.gdx.scene.Mesh
-import com.codeviking.gdx.scene.MeshData
-import com.codeviking.gdx.shading.*
-import com.codeviking.gdx.util.Color
-import com.codeviking.gdx.util.MeshBuilder
-import com.codeviking.gdx.util.MutableColor
+import com.codeviking.kxg.InputManager
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.MutableVec2f
+import com.codeviking.kxg.math.clamp
+import com.codeviking.kxg.scene.Mesh
+import com.codeviking.kxg.scene.MeshData
+import com.codeviking.kxg.shading.*
+import com.codeviking.kxg.util.Color
+import com.codeviking.kxg.util.MeshBuilder
+import com.codeviking.kxg.util.MutableColor
 
 /**
  * @author fabmax

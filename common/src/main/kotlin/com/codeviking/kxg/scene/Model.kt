@@ -1,8 +1,8 @@
-package com.codeviking.gdx.scene
+package com.codeviking.kxg.scene
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.shading.Attribute
-import com.codeviking.gdx.shading.Shader
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.shading.Attribute
+import com.codeviking.kxg.shading.Shader
 
 /**
  * fixme: kinda deprecated, use TransformGroup with meshes instead, however copyInstance() is still needed

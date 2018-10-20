@@ -1,12 +1,12 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.gl.GL_ALWAYS
-import com.codeviking.gdx.gl.GL_POINTS
-import com.codeviking.gdx.math.Vec3f
-import com.codeviking.gdx.scene.Mesh
-import com.codeviking.gdx.scene.MeshData
-import com.codeviking.gdx.shading.*
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.gl.GL_ALWAYS
+import com.codeviking.kxg.gl.GL_POINTS
+import com.codeviking.kxg.math.Vec3f
+import com.codeviking.kxg.scene.Mesh
+import com.codeviking.kxg.scene.MeshData
+import com.codeviking.kxg.shading.*
 
 /**
  * @author fabmax

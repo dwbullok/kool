@@ -1,12 +1,12 @@
-package com.codeviking.gdx.scene
+package com.codeviking.kxg.scene
 
-import com.codeviking.gdx.InputManager
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.RayTest
-import com.codeviking.gdx.math.Vec3f
-import com.codeviking.gdx.util.BoundingBox
-import com.codeviking.gdx.util.Disposable
+import com.codeviking.kxg.InputManager
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.RayTest
+import com.codeviking.kxg.math.Vec3f
+import com.codeviking.kxg.util.BoundingBox
+import com.codeviking.kxg.util.Disposable
 
 /**
  * A scene node. This is the base class for all scene objects.

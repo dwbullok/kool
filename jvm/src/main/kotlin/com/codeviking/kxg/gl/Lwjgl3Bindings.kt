@@ -1,6 +1,6 @@
-package com.codeviking.gdx.gl
+package com.codeviking.kxg.gl
 
-import com.codeviking.gdx.util.*
+import com.codeviking.kxg.util.*
 import org.lwjgl.opengl.*
 
 

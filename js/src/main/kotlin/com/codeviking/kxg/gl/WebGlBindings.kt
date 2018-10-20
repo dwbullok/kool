@@ -1,8 +1,8 @@
-package com.codeviking.gdx.gl
+package com.codeviking.kxg.gl
 
-import com.codeviking.gdx.JsImpl
-import com.codeviking.gdx.KxgException
-import com.codeviking.gdx.util.*
+import com.codeviking.kxg.JsImpl
+import com.codeviking.kxg.KxgException
+import com.codeviking.kxg.util.*
 import org.khronos.webgl.*
 import org.w3c.dom.HTMLImageElement
 

@@ -1,13 +1,13 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.Texture
-import com.codeviking.gdx.TextureData
-import com.codeviking.gdx.defaultProps
-import com.codeviking.gdx.math.MutableVec2f
-import com.codeviking.gdx.shading.BasicShader
-import com.codeviking.gdx.shading.GlslGenerator
-import com.codeviking.gdx.shading.ShaderProps
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.Texture
+import com.codeviking.kxg.TextureData
+import com.codeviking.kxg.defaultProps
+import com.codeviking.kxg.math.MutableVec2f
+import com.codeviking.kxg.shading.BasicShader
+import com.codeviking.kxg.shading.GlslGenerator
+import com.codeviking.kxg.shading.ShaderProps
 
 /**
  * @author fabmax

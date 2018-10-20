@@ -1,8 +1,8 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.KxgException
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.Vec3f
+import com.codeviking.kxg.KxgException
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.Vec3f
 import kotlin.math.max
 
 class OcTree<T: Any>(itemAdapter: ItemAdapter<T>, items: List<T> = emptyList(),

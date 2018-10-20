@@ -1,12 +1,12 @@
-package com.codeviking.gdx.scene.ui
+package com.codeviking.kxg.scene.ui
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.Vec3f
-import com.codeviking.gdx.shading.ColorModel
-import com.codeviking.gdx.shading.basicShader
-import com.codeviking.gdx.util.Color
-import com.codeviking.gdx.util.CosAnimator
-import com.codeviking.gdx.util.InterpolatedFloat
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.Vec3f
+import com.codeviking.kxg.shading.ColorModel
+import com.codeviking.kxg.shading.basicShader
+import com.codeviking.kxg.util.Color
+import com.codeviking.kxg.util.CosAnimator
+import com.codeviking.kxg.util.InterpolatedFloat
 import kotlin.math.min
 
 class DrawerMenu(width: SizeSpec, title: String?, name: String, root: UiRoot) : UiContainer(name, root) {

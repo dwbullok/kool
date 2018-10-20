@@ -1,9 +1,9 @@
-package com.codeviking.gdx.modules.globe.elevation
+package com.codeviking.kxg.modules.globe.elevation
 
-import com.codeviking.gdx.AssetManager
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.Vec3f
-import com.codeviking.gdx.platform.JvmAssetManager
+import com.codeviking.kxg.AssetManager
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.Vec3f
+import com.codeviking.kxg.platform.JvmAssetManager
 import java.awt.image.BufferedImage
 import java.awt.image.DataBufferByte
 import java.awt.image.DataBufferInt

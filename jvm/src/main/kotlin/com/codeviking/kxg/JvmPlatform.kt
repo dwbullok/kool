@@ -1,10 +1,10 @@
-package com.codeviking.gdx
+package com.codeviking.kxg
 
-import com.codeviking.gdx.math.clamp
-import com.codeviking.gdx.platform.Lwjgl3Context
-import com.codeviking.gdx.platform.MonitorSpec
-import com.codeviking.gdx.util.Log
-import com.codeviking.gdx.util.SimpleShadowMap
+import com.codeviking.kxg.math.clamp
+import com.codeviking.kxg.platform.Lwjgl3Context
+import com.codeviking.kxg.platform.MonitorSpec
+import com.codeviking.kxg.util.Log
+import com.codeviking.kxg.util.SimpleShadowMap
 import org.lwjgl.glfw.GLFW
 import org.lwjgl.glfw.GLFWErrorCallback
 import java.text.SimpleDateFormat

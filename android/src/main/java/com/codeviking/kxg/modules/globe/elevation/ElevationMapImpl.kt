@@ -1,11 +1,11 @@
-package com.codeviking.gdx.modules.globe.elevation
+package com.codeviking.kxg.modules.globe.elevation
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import com.codeviking.gdx.AssetManager
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.Vec3f
-import com.codeviking.gdx.platform.AndroidAssetManager
+import com.codeviking.kxg.AssetManager
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.Vec3f
+import com.codeviking.kxg.platform.AndroidAssetManager
 import java.io.File
 import java.io.FileInputStream
 import java.io.InputStream

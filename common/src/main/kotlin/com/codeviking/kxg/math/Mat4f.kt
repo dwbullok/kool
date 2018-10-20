@@ -1,7 +1,7 @@
-package com.codeviking.gdx.math
+package com.codeviking.kxg.math
 
-import com.codeviking.gdx.KxgException
-import com.codeviking.gdx.util.Float32Buffer
+import com.codeviking.kxg.KxgException
+import com.codeviking.kxg.util.Float32Buffer
 import kotlin.math.*
 
 /**

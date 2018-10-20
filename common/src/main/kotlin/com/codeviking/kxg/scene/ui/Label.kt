@@ -1,12 +1,12 @@
-package com.codeviking.gdx.scene.ui
+package com.codeviking.kxg.scene.ui
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.scene.Mesh
-import com.codeviking.gdx.scene.MeshData
-import com.codeviking.gdx.shading.Attribute
-import com.codeviking.gdx.shading.BasicShader
-import com.codeviking.gdx.shading.ColorModel
-import com.codeviking.gdx.util.*
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.scene.Mesh
+import com.codeviking.kxg.scene.MeshData
+import com.codeviking.kxg.shading.Attribute
+import com.codeviking.kxg.shading.BasicShader
+import com.codeviking.kxg.shading.ColorModel
+import com.codeviking.kxg.util.*
 
 /**
  * @author fabmax

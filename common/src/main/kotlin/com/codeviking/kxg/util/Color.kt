@@ -1,6 +1,6 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.math.Vec4f
+import com.codeviking.kxg.math.Vec4f
 
 /**
  * @author fabmax

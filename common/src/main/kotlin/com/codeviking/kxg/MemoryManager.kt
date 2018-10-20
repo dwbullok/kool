@@ -1,6 +1,6 @@
-package com.codeviking.gdx
+package com.codeviking.kxg
 
-import com.codeviking.gdx.gl.GlResource
+import com.codeviking.kxg.gl.GlResource
 
 /**
  * @author fabmax

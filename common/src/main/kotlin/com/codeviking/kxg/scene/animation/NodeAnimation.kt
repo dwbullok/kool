@@ -1,6 +1,6 @@
-package com.codeviking.gdx.scene.animation
+package com.codeviking.kxg.scene.animation
 
-import com.codeviking.gdx.math.*
+import com.codeviking.kxg.math.*
 import kotlin.math.max
 
 interface AnimatedNode {

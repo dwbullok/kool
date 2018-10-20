@@ -1,11 +1,11 @@
-package com.codeviking.gdx.platform
+package com.codeviking.kxg.platform
 
 import android.content.Context
 import android.graphics.*
 import android.graphics.Color
-import com.codeviking.gdx.BufferedTextureData
-import com.codeviking.gdx.gl.GL_ALPHA
-import com.codeviking.gdx.util.*
+import com.codeviking.kxg.BufferedTextureData
+import com.codeviking.kxg.gl.GL_ALPHA
+import com.codeviking.kxg.util.*
 import java.nio.ByteBuffer
 
 

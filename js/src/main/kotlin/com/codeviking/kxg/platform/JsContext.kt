@@ -1,7 +1,7 @@
-package com.codeviking.gdx.platform
+package com.codeviking.kxg.platform
 
-import com.codeviking.gdx.*
-import com.codeviking.gdx.gl.*
+import com.codeviking.kxg.*
+import com.codeviking.kxg.gl.*
 import org.khronos.webgl.WebGLRenderingContext
 import org.w3c.dom.Element
 import org.w3c.dom.HTMLCanvasElement

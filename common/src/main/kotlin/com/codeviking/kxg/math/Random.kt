@@ -1,6 +1,6 @@
-package com.codeviking.gdx.math
+package com.codeviking.kxg.math
 
-import com.codeviking.gdx.now
+import com.codeviking.kxg.now
 import kotlin.math.abs
 
 val defaultRandomInstance = Random(now().toInt())

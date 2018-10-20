@@ -1,7 +1,7 @@
-package com.codeviking.gdx.gl
+package com.codeviking.kxg.gl
 
 import android.opengl.GLES30
-import com.codeviking.gdx.util.*
+import com.codeviking.kxg.util.*
 
 /**
  * Kxg OpenGL ES bindings for Android

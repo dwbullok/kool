@@ -1,4 +1,4 @@
-package com.codeviking.gdx.math
+package com.codeviking.kxg.math
 
 open class BSpline<T>(var degree: Int, private val factory: () -> T, private val copy: (src: T, dst: T) -> Unit,
                  private val mix: (w0: Float, p0: T, w1: Float, p1: T, result: T) -> Unit) {

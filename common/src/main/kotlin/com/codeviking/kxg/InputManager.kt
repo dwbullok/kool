@@ -1,7 +1,7 @@
-package com.codeviking.gdx
+package com.codeviking.kxg
 
-import com.codeviking.gdx.util.TouchGestureEvaluator
-import com.codeviking.gdx.util.logW
+import com.codeviking.kxg.util.TouchGestureEvaluator
+import com.codeviking.kxg.util.logW
 
 /**
  * @author fabmax

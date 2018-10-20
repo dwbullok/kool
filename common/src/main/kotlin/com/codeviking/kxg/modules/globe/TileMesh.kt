@@ -1,13 +1,13 @@
-package com.codeviking.gdx.modules.globe
+package com.codeviking.kxg.modules.globe
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.Texture
-import com.codeviking.gdx.assetTexture
-import com.codeviking.gdx.scene.Mesh
-import com.codeviking.gdx.scene.MeshData
-import com.codeviking.gdx.shading.*
-import com.codeviking.gdx.util.Color
-import com.codeviking.gdx.util.logE
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.Texture
+import com.codeviking.kxg.assetTexture
+import com.codeviking.kxg.scene.Mesh
+import com.codeviking.kxg.scene.MeshData
+import com.codeviking.kxg.shading.*
+import com.codeviking.kxg.util.Color
+import com.codeviking.kxg.util.logE
 import kotlinx.coroutines.experimental.Job
 import kotlinx.coroutines.experimental.launch
 

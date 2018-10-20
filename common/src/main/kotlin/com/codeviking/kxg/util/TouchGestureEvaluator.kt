@@ -1,9 +1,9 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.InputManager
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.MutableVec2f
-import com.codeviking.gdx.math.Vec2f
+import com.codeviking.kxg.InputManager
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.MutableVec2f
+import com.codeviking.kxg.math.Vec2f
 
 /**
  * Evaluates standard touch gestures (pinch-to-zoom, two-finger drag)

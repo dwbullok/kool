@@ -1,8 +1,8 @@
-package com.codeviking.gdx.modules.physics
+package com.codeviking.kxg.modules.physics
 
-import com.codeviking.gdx.math.Mat4f
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.Vec3f
+import com.codeviking.kxg.math.Mat4f
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.Vec3f
 import kotlin.math.abs
 
 class Box(sizeX: Float, sizeY: Float, sizeZ: Float) {

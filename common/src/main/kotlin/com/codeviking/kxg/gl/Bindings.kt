@@ -1,9 +1,9 @@
-package com.codeviking.gdx.gl
+package com.codeviking.kxg.gl
 
-import com.codeviking.gdx.util.Float32Buffer
-import com.codeviking.gdx.util.Uint16Buffer
-import com.codeviking.gdx.util.Uint32Buffer
-import com.codeviking.gdx.util.Uint8Buffer
+import com.codeviking.kxg.util.Float32Buffer
+import com.codeviking.kxg.util.Uint16Buffer
+import com.codeviking.kxg.util.Uint32Buffer
+import com.codeviking.kxg.util.Uint8Buffer
 
 /**
  * @author fabmax

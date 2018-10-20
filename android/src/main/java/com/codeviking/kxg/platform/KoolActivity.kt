@@ -1,4 +1,4 @@
-package com.codeviking.gdx.platform
+package com.codeviking.kxg.platform
 
 import android.app.Activity
 import android.opengl.GLSurfaceView

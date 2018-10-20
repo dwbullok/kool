@@ -1,7 +1,7 @@
-package com.codeviking.gdx
+package com.codeviking.kxg
 
-import com.codeviking.gdx.util.CharMap
-import com.codeviking.gdx.util.FontProps
+import com.codeviking.kxg.util.CharMap
+import com.codeviking.kxg.util.FontProps
 
 abstract class AssetManager(var assetsBaseDir: String) {
 

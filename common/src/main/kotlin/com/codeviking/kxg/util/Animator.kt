@@ -1,8 +1,8 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.clamp
-import com.codeviking.gdx.math.isFuzzyZero
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.clamp
+import com.codeviking.kxg.math.isFuzzyZero
 import kotlin.math.PI
 import kotlin.math.cos
 

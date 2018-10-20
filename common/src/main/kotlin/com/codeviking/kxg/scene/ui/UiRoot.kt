@@ -1,14 +1,14 @@
-package com.codeviking.gdx.scene.ui
+package com.codeviking.kxg.scene.ui
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.gl.GL_DEPTH_BUFFER_BIT
-import com.codeviking.gdx.math.RayTest
-import com.codeviking.gdx.scene.Node
-import com.codeviking.gdx.scene.OrthographicCamera
-import com.codeviking.gdx.scene.Scene
-import com.codeviking.gdx.scene.scene
-import com.codeviking.gdx.shading.BlurredBackgroundHelper
-import com.codeviking.gdx.shading.LightModel
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.gl.GL_DEPTH_BUFFER_BIT
+import com.codeviking.kxg.math.RayTest
+import com.codeviking.kxg.scene.Node
+import com.codeviking.kxg.scene.OrthographicCamera
+import com.codeviking.kxg.scene.Scene
+import com.codeviking.kxg.scene.scene
+import com.codeviking.kxg.shading.BlurredBackgroundHelper
+import com.codeviking.kxg.shading.LightModel
 
 fun embeddedUi(contentHeight: SizeSpec?, dpi: Float = 300f, block: UiRoot.() -> Unit): UiRoot {
     val ui = UiRoot(dpi)

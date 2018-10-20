@@ -1,12 +1,12 @@
-package com.codeviking.gdx.modules.globe
+package com.codeviking.kxg.modules.globe
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.*
-import com.codeviking.gdx.modules.globe.elevation.ElevationMapProvider
-import com.codeviking.gdx.modules.globe.elevation.NullElevationMap
-import com.codeviking.gdx.scene.Group
-import com.codeviking.gdx.scene.PerspectiveCamera
-import com.codeviking.gdx.scene.doubleprec.TransformGroupDp
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.*
+import com.codeviking.kxg.modules.globe.elevation.ElevationMapProvider
+import com.codeviking.kxg.modules.globe.elevation.NullElevationMap
+import com.codeviking.kxg.scene.Group
+import com.codeviking.kxg.scene.PerspectiveCamera
+import com.codeviking.kxg.scene.doubleprec.TransformGroupDp
 import kotlin.math.*
 
 class Globe(val radius: Double, name: String? = null) : TransformGroupDp(name) {

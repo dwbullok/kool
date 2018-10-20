@@ -1,12 +1,12 @@
-package com.codeviking.gdx.scene.ui
+package com.codeviking.kxg.scene.ui
 
-import com.codeviking.gdx.InputManager
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.math.RayTest
-import com.codeviking.gdx.util.Color
-import com.codeviking.gdx.util.CosAnimator
-import com.codeviking.gdx.util.InterpolatedFloat
-import com.codeviking.gdx.util.MutableColor
+import com.codeviking.kxg.InputManager
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.math.RayTest
+import com.codeviking.kxg.util.Color
+import com.codeviking.kxg.util.CosAnimator
+import com.codeviking.kxg.util.InterpolatedFloat
+import com.codeviking.kxg.util.MutableColor
 
 /**
  * @author fabmax

@@ -1,8 +1,8 @@
-package com.codeviking.gdx.modules.audio
+package com.codeviking.kxg.modules.audio
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.util.Float32Buffer
-import com.codeviking.gdx.util.createFloat32Buffer
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.util.Float32Buffer
+import com.codeviking.kxg.util.createFloat32Buffer
 import org.jtransforms.fft.FloatFFT_1D
 import org.jtransforms.utils.CommonUtils
 import java.nio.ByteBuffer

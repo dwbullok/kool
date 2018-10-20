@@ -1,18 +1,18 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.getMemoryInfo
-import com.codeviking.gdx.gl.GL_DYNAMIC_DRAW
-import com.codeviking.gdx.gl.GlResource
-import com.codeviking.gdx.scene.Mesh
-import com.codeviking.gdx.scene.MeshData
-import com.codeviking.gdx.scene.Scene
-import com.codeviking.gdx.scene.ui.*
-import com.codeviking.gdx.shading.Attribute
-import com.codeviking.gdx.shading.ColorModel
-import com.codeviking.gdx.shading.LightModel
-import com.codeviking.gdx.shading.basicShader
-import com.codeviking.gdx.toString
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.getMemoryInfo
+import com.codeviking.kxg.gl.GL_DYNAMIC_DRAW
+import com.codeviking.kxg.gl.GlResource
+import com.codeviking.kxg.scene.Mesh
+import com.codeviking.kxg.scene.MeshData
+import com.codeviking.kxg.scene.Scene
+import com.codeviking.kxg.scene.ui.*
+import com.codeviking.kxg.shading.Attribute
+import com.codeviking.kxg.shading.ColorModel
+import com.codeviking.kxg.shading.LightModel
+import com.codeviking.kxg.shading.basicShader
+import com.codeviking.kxg.toString
 import kotlin.math.min
 
 /**

@@ -1,8 +1,8 @@
-package com.codeviking.gdx.util.serialization
+package com.codeviking.kxg.util.serialization
 
-import com.codeviking.gdx.math.Vec3f
-import com.codeviking.gdx.math.Vec4f
-import com.codeviking.gdx.scene.animation.*
+import com.codeviking.kxg.math.Vec3f
+import com.codeviking.kxg.math.Vec4f
+import com.codeviking.kxg.scene.animation.*
 import kotlinx.serialization.SerialId
 import kotlinx.serialization.Serializable
 

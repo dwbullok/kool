@@ -1,7 +1,7 @@
-package com.codeviking.gdx.gl
+package com.codeviking.kxg.gl
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.util.Disposable
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.util.Disposable
 
 /**
  * @author fabmax

@@ -1,11 +1,11 @@
-package com.codeviking.gdx.scene.doubleprec
+package com.codeviking.kxg.scene.doubleprec
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.RenderPass
-import com.codeviking.gdx.math.*
-import com.codeviking.gdx.scene.Node
-import com.codeviking.gdx.scene.Scene
-import com.codeviking.gdx.util.BoundingBox
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.RenderPass
+import com.codeviking.kxg.math.*
+import com.codeviking.kxg.scene.Node
+import com.codeviking.kxg.scene.Scene
+import com.codeviking.kxg.util.BoundingBox
 
 fun transformGroupDp(name: String? = null, block: TransformGroupDp.() -> Unit): TransformGroupDp {
     val tg = TransformGroupDp(name)

@@ -1,6 +1,6 @@
-package com.codeviking.gdx.modules.globe.elevation
+package com.codeviking.kxg.modules.globe.elevation
 
-import com.codeviking.gdx.math.*
+import com.codeviking.kxg.math.*
 import kotlin.math.cos
 import kotlin.math.sin
 

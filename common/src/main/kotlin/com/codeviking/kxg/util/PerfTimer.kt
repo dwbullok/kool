@@ -1,7 +1,7 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.now
-import com.codeviking.gdx.toString
+import com.codeviking.kxg.now
+import com.codeviking.kxg.toString
 
 class PerfTimer {
 

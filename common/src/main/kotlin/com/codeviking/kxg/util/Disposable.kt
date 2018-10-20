@@ -1,6 +1,6 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.KxgContext
+import com.codeviking.kxg.KxgContext
 
 interface Disposable {
     fun dispose(ctx: KxgContext)

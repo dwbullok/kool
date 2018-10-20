@@ -1,9 +1,9 @@
-package com.codeviking.gdx.modules.mesh.simplification
+package com.codeviking.kxg.modules.mesh.simplification
 
-import com.codeviking.gdx.math.Mat4f
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.math.Vec3f
-import com.codeviking.gdx.modules.mesh.HalfEdgeMesh
+import com.codeviking.kxg.math.Mat4f
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.math.Vec3f
+import com.codeviking.kxg.modules.mesh.HalfEdgeMesh
 
 /**
  * Implements the strategy for collapsing mesh edges.

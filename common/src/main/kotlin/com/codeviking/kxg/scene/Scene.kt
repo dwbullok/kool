@@ -1,13 +1,13 @@
-package com.codeviking.gdx.scene
+package com.codeviking.kxg.scene
 
-import com.codeviking.gdx.InputManager
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.gl.GL_COLOR_BUFFER_BIT
-import com.codeviking.gdx.gl.GL_DEPTH_BUFFER_BIT
-import com.codeviking.gdx.gl.glClear
-import com.codeviking.gdx.math.RayTest
-import com.codeviking.gdx.util.Disposable
-import com.codeviking.gdx.util.ShadowMap
+import com.codeviking.kxg.InputManager
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.gl.GL_COLOR_BUFFER_BIT
+import com.codeviking.kxg.gl.GL_DEPTH_BUFFER_BIT
+import com.codeviking.kxg.gl.glClear
+import com.codeviking.kxg.math.RayTest
+import com.codeviking.kxg.util.Disposable
+import com.codeviking.kxg.util.ShadowMap
 
 /**
  * @author fabmax

@@ -1,13 +1,13 @@
-package com.codeviking.gdx
+package com.codeviking.kxg
 
-import com.codeviking.gdx.gl.ProgramResource
-import com.codeviking.gdx.gl.ShaderResource
-import com.codeviking.gdx.gl.glUseProgram
-import com.codeviking.gdx.shading.PreferredLightModel
-import com.codeviking.gdx.shading.PreferredShadowMethod
-import com.codeviking.gdx.shading.Shader
-import com.codeviking.gdx.shading.ShadingHints
-import com.codeviking.gdx.util.logE
+import com.codeviking.kxg.gl.ProgramResource
+import com.codeviking.kxg.gl.ShaderResource
+import com.codeviking.kxg.gl.glUseProgram
+import com.codeviking.kxg.shading.PreferredLightModel
+import com.codeviking.kxg.shading.PreferredShadowMethod
+import com.codeviking.kxg.shading.Shader
+import com.codeviking.kxg.shading.ShadingHints
+import com.codeviking.kxg.util.logE
 
 /**
  * @author fabmax

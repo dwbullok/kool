@@ -1,14 +1,14 @@
-package com.codeviking.gdx.shading
+package com.codeviking.kxg.shading
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.RenderPass
-import com.codeviking.gdx.Texture
-import com.codeviking.gdx.math.MutableVec4f
-import com.codeviking.gdx.scene.Mesh
-import com.codeviking.gdx.scene.Scene
-import com.codeviking.gdx.scene.animation.Armature
-import com.codeviking.gdx.util.Float32Buffer
-import com.codeviking.gdx.util.ShadowMap
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.RenderPass
+import com.codeviking.kxg.Texture
+import com.codeviking.kxg.math.MutableVec4f
+import com.codeviking.kxg.scene.Mesh
+import com.codeviking.kxg.scene.Scene
+import com.codeviking.kxg.scene.animation.Armature
+import com.codeviking.kxg.util.Float32Buffer
+import com.codeviking.kxg.util.ShadowMap
 
 
 fun basicShader(propsInit: ShaderProps.() -> Unit): BasicShader {

@@ -1,12 +1,12 @@
-package com.codeviking.gdx.modules.globe
+package com.codeviking.kxg.modules.globe
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.Texture
-import com.codeviking.gdx.assetTexture
-import com.codeviking.gdx.shading.ColorModel
-import com.codeviking.gdx.shading.LightModel
-import com.codeviking.gdx.shading.Shader
-import com.codeviking.gdx.shading.basicShader
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.Texture
+import com.codeviking.kxg.assetTexture
+import com.codeviking.kxg.shading.ColorModel
+import com.codeviking.kxg.shading.LightModel
+import com.codeviking.kxg.shading.Shader
+import com.codeviking.kxg.shading.basicShader
 
 interface TileShaderProvider {
     fun getShader(tileName: TileName, ctx: KxgContext): TileShader

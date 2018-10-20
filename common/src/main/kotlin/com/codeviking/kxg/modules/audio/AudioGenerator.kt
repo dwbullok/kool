@@ -1,7 +1,7 @@
-package com.codeviking.gdx.modules.audio
+package com.codeviking.kxg.modules.audio
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.util.Float32Buffer
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.util.Float32Buffer
 
 /**
  * AudioGenerator plays audio from the given sample generator function. The generator

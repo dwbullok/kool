@@ -1,13 +1,13 @@
-package com.codeviking.gdx.modules.mesh.simplification
+package com.codeviking.kxg.modules.mesh.simplification
 
-import com.codeviking.gdx.math.MutableVec3f
-import com.codeviking.gdx.modules.mesh.HalfEdgeMesh
-import com.codeviking.gdx.scene.Mesh
-import com.codeviking.gdx.scene.MeshData
-import com.codeviking.gdx.toString
-import com.codeviking.gdx.util.PerfTimer
-import com.codeviking.gdx.util.PriorityQueue
-import com.codeviking.gdx.util.logD
+import com.codeviking.kxg.math.MutableVec3f
+import com.codeviking.kxg.modules.mesh.HalfEdgeMesh
+import com.codeviking.kxg.scene.Mesh
+import com.codeviking.kxg.scene.MeshData
+import com.codeviking.kxg.toString
+import com.codeviking.kxg.util.PerfTimer
+import com.codeviking.kxg.util.PriorityQueue
+import com.codeviking.kxg.util.logD
 import kotlin.math.max
 
 fun Mesh.simplify(termCrit: TermCriterion) {

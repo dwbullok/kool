@@ -1,9 +1,9 @@
-package com.codeviking.gdx.util
+package com.codeviking.kxg.util
 
-import com.codeviking.gdx.KxgException
-import com.codeviking.gdx.math.*
-import com.codeviking.gdx.shading.Attribute
-import com.codeviking.gdx.shading.AttributeType
+import com.codeviking.kxg.KxgException
+import com.codeviking.kxg.math.*
+import com.codeviking.kxg.shading.Attribute
+import com.codeviking.kxg.shading.AttributeType
 import kotlin.math.max
 import kotlin.math.round
 

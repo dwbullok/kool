@@ -1,4 +1,4 @@
-package com.codeviking.gdx
+package com.codeviking.kxg
 
 /**
  * Test util functions

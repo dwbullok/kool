@@ -1,9 +1,9 @@
-package com.codeviking.gdx.scene
+package com.codeviking.kxg.scene
 
-import com.codeviking.gdx.KxgContext
-import com.codeviking.gdx.RenderPass
-import com.codeviking.gdx.math.RayTest
-import com.codeviking.gdx.util.BoundingBox
+import com.codeviking.kxg.KxgContext
+import com.codeviking.kxg.RenderPass
+import com.codeviking.kxg.math.RayTest
+import com.codeviking.kxg.util.BoundingBox
 
 /**
  * @author fabmax

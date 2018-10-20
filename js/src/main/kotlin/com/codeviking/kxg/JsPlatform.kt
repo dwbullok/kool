@@ -1,8 +1,8 @@
-package com.codeviking.gdx
+package com.codeviking.kxg
 
-import com.codeviking.gdx.math.clamp
-import com.codeviking.gdx.platform.JsContext
-import com.codeviking.gdx.util.logW
+import com.codeviking.kxg.math.clamp
+import com.codeviking.kxg.platform.JsContext
+import com.codeviking.kxg.util.logW
 import org.khronos.webgl.WebGLRenderingContext
 import org.w3c.dom.HTMLDivElement
 import kotlin.browser.document
